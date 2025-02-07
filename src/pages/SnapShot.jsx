@@ -3,22 +3,32 @@ import { useNavigate, useParams } from "react-router-dom";
 import ContentDisplay from "../components/Content";
 
 const PROVINCES = [
+  { id: "MH", name: "Métis Homeland" },
   { id: "BC", name: "British Columbia" },
   { id: "AB", name: "Alberta" },
+  { id: "SK", name: "Saskatchewan" },
+  { id: "MB", name: "Manitoba" },
+  { id: "ON", name: "Ontario" },
 ];
 
 const CATEGORIES = [
-  { id: "health", name: "Health" },
   { id: "demographic", name: "Demographic" },
-  { id: "labor", name: "Labor" },
+  { id: "health", name: "Health" },
+  { id: "education", name: "Education" },
+  { id: "housing", name: "Housing" },
+  { id: "labor", name: "Labor Activities" },
+  { id: "language", name: "Language" },
+  { id: "community", name: "Community" },
 ];
 
 export default function SnapShot() {
   const navigate = useNavigate();
   const { province, category } = useParams();
 
-  const [currentProvince, setCurrentProvince] = useState(province || "BC");
-  const [currentCategory, setCurrentCategory] = useState(category || "health");
+  const [currentProvince, setCurrentProvince] = useState(province || "MH");
+  const [currentCategory, setCurrentCategory] = useState(
+    category || "demographic"
+  );
 
   useEffect(() => {
     console.log("province", province);
@@ -40,8 +50,8 @@ export default function SnapShot() {
 
   return (
     <div className="w-full max-w-6xl px-4">
-      {/* 省份选择 - 一级导航 */}
-      <div className="mb-8 border-b border-gray-200">
+      {/* province tabs */}
+      <div className="mb-8 border-b border-gray-400">
         <div className="flex space-x-8">
           {PROVINCES.map((prov) => (
             <button
@@ -49,12 +59,12 @@ export default function SnapShot() {
               onClick={() => handleProvinceChange(prov.id)}
               className={`
                 py-4 px-1 relative
-                text-sm font-medium
+                text-lg font-medium
                 hover:text-blue-600
                 ${
                   currentProvince === prov.id
                     ? "text-blue-600"
-                    : "text-gray-500"
+                    : "text-gray-800"
                 }
               `}
             >
@@ -67,7 +77,7 @@ export default function SnapShot() {
         </div>
       </div>
 
-      {/* 类别选择 - 二级导航 */}
+      {/* category tabs */}
       <div className="mb-6 border-b border-gray-200">
         <div className="flex space-x-6">
           {CATEGORIES.map((cat) => (
@@ -75,13 +85,14 @@ export default function SnapShot() {
               key={cat.id}
               onClick={() => handleCategoryChange(cat.id)}
               className={`
+                flex flex-auto
                 py-3 px-1 relative
-                text-sm font-medium
+                text-md font-medium
                 hover:text-indigo-600
                 ${
                   currentCategory === cat.id
                     ? "text-indigo-600"
-                    : "text-gray-500"
+                    : "text-gray-700"
                 }
               `}
             >
@@ -94,7 +105,7 @@ export default function SnapShot() {
         </div>
       </div>
 
-      {/* 内容区域 */}
+      {/* contents */}
       <div className="mt-6">
         <ContentDisplay province={currentProvince} category={currentCategory} />
       </div>
