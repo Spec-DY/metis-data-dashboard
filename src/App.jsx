@@ -14,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Navigate to="/snapshot" replace />} />
           <Route path="/snapshot" element={<SnapShot />} />
+          <Route path="/snapshot/:province/:category" element={<SnapShot />} />
         </Routes>
       </PageLayout>
     </BrowserRouter>
