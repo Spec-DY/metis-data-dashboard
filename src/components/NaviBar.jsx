@@ -10,7 +10,7 @@ export default function NaviBar() {
   const location = useLocation();
 
   // Define available tabs
-  const tabs = [{ path: "/snapshot", label: "SnapShot" }];
+  const tabs = [{ path: "/snapshot", label: "SNAPSHOT" }];
 
   const currentTabIndex = tabs.findIndex(
     (tab) => tab.path === location.pathname
@@ -32,8 +32,7 @@ export default function NaviBar() {
             sx={{
               flex: 1,
               "& .MuiTab-root": {
-                // uncomment this line to make the text lowercase or as is
-                // textTransform: "none",
+                textTransform: "none",
               },
               "& .Mui-selected": {
                 color: "primary.main",

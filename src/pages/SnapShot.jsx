@@ -66,6 +66,7 @@ export default function SnapShot() {
       </div>
 
       <div className="hidden sm:block">
+        {/* display province tab in big screen */}
         <div className="mb-8 border-b border-gray-400">
           <div className="flex space-x-8">
             {PROVINCES.map((prov) => (

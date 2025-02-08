@@ -1,3 +1,6 @@
+import MH_Demo_indi_full from "../assets/screenshots/MH_Demo_indi_full.png";
+import Card from "./Card";
+
 export default function ContentDisplay({ province, category }) {
   const content = {
     demographic: {
@@ -34,12 +37,22 @@ export default function ContentDisplay({ province, category }) {
 
   return (
     <div>
-      <h2 className="text-2xl font-bold mb-4">
+      <h2 className="text-2xl font-bold mb-6">
         {currentContent.title} - {province}
       </h2>
-      <div className="bg-white rounded-lg shadow p-6">
-        {currentContent.component()}
-      </div>
+      <Card>
+        {province === "Homeland" && category === "demographic" && (
+          <div className="p-6">
+            <img
+              src={MH_Demo_indi_full}
+              className="rounded-3xl"
+              alt="metis homeland demographic"
+            />
+          </div>
+        )}
+      </Card>
+
+      {province === "Homeland" && category === "health" && <Card />}
     </div>
   );
 }

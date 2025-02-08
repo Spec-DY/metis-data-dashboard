@@ -6,7 +6,7 @@ export default function ProvinceSelect({ value, options, onChange }) {
   const selectedName = options.find((opt) => opt.id === value)?.name || "";
 
   return (
-    <Menu as="div" className="relative text-center w-56">
+    <Menu as="div" className="relative text-center w-70">
       <div>
         <MenuButton className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50">
           {selectedName}
@@ -19,7 +19,7 @@ export default function ProvinceSelect({ value, options, onChange }) {
 
       <MenuItems
         transition
-        className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white ring-1 shadow-lg ring-black/5 focus:outline-hidden"
+        className="relative z-10 mt-2 origin-top-right rounded-md bg-white ring-1 shadow-lg ring-black/5 focus:outline-hidden"
       >
         <div className="py-1">
           {options.map((option) => (
@@ -29,7 +29,9 @@ export default function ProvinceSelect({ value, options, onChange }) {
                   onClick={() => onChange(option.id)}
                   className={`
                     w-full text-left px-4 py-2 text-sm
-                    ${active ? "bg-gray-100 text-gray-900" : "text-gray-700"}
+                    ${active ? "bg-gray-100 text-blue-500" : "text-gray-700"}
+                    ${option.id === value ? "font-bold" : ""}
+
                   `}
                 >
                   {option.name}
