@@ -1,4 +1,4 @@
-import MH_Demo_indi_full from "../assets/screenshots/MH_Demo_indi_full.png";
+import MH_Demo_indi_full from "@assets/screenshots/MH_Demo_indi_full.png";
 import Card from "./Card";
 
 export default function ContentDisplay({ province, category }) {
