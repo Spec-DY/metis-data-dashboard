@@ -38,13 +38,18 @@ const CATEGORIES = [
 
 export default function SnapShot() {
   const navigate = useNavigate();
-  const { province, category } = useParams();
+  const { province, category, subcategory } = useParams();
 
   const [currentProvince, setCurrentProvince] = useState(
     province || "Homeland"
   );
   const [currentCategory, setCurrentCategory] = useState(
     category || "demographic"
+  );
+
+  const [currentSubCategory, setCurrentSubCategory] = useState(
+    subcategory ||
+      (SUBCATEGORIES[category] ? SUBCATEGORIES[category][0].id : null)
   );
 
   const currentCategoryName = CATEGORIES.find(
@@ -57,6 +62,7 @@ export default function SnapShot() {
   useEffect(() => {
     console.log("province", province);
     console.log("category", category);
+    console.log("subcategory", subcategory);
     if (!province || !category) {
       navigate(`/snapshot/${currentProvince}/${currentCategory}`);
     }
@@ -64,12 +70,35 @@ export default function SnapShot() {
 
   const handleProvinceChange = (provinceId) => {
     setCurrentProvince(provinceId);
-    navigate(`/snapshot/${provinceId}/${currentCategory}`);
+    // if no subcategory, navigate to category similar for below handle functions
+    navigate(
+      `/snapshot/${provinceId}/${currentCategory}${currentSubCategory}? ` /
+        $(currentSubCategory)`:''`
+    );
   };
 
   const handleCategoryChange = (categoryId) => {
     setCurrentCategory(categoryId);
-    navigate(`/snapshot/${currentProvince}/${categoryId}`);
+
+    const newSubCategory = SUBCATEGORIES[categoryId]
+      ? SUBCATEGORIES[categoryId][0].id
+      : null;
+    setCurrentSubCategory(newSubCategory);
+
+    navigate(
+      `/snapshot/${currentProvince}/${categoryId}${
+        newSubCategory ? `/${newSubCategory}` : ""
+      }`
+    );
+  };
+
+  const handleSubCategoryChange = (subcategoryId) => {
+    console.log("previous subcategory: ", subcategoryId);
+    setCurrentSubCategory(subcategoryId);
+    console.log("current subcategory: ", subcategoryId);
+    navigate(
+      `/snapshot/${currentProvince}/${currentCategory}/${subcategoryId}`
+    );
   };
 
   const content = (
@@ -78,7 +107,12 @@ export default function SnapShot() {
         {currentProvinceName} - {currentCategoryName}
       </h2>
       <div className="mt-4 sm:mt-6">
-        <ContentDisplay province={currentProvince} category={currentCategory} />
+        <ContentDisplay
+          province={currentProvince}
+          category={currentCategory}
+          subcategory={currentSubCategory}
+          onSubcategoryChange={handleSubCategoryChange}
+        />
       </div>
     </div>
   );

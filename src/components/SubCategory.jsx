@@ -1,23 +1,32 @@
 import { motion } from "framer-motion";
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
 
-const tabs = [
-  { id: "world", label: "World" },
-  { id: "ny", label: "N.Y." },
-  { id: "business", label: "Business" },
-  { id: "arts", label: "Arts" },
-  { id: "science", label: "Science" },
-];
+export default function SubCategory({ currentSubcategory, onChange }) {
+  const healthTabs = [
+    { id: "general", name: "General Health" },
+    { id: "mental", name: "Mental Health" },
+    { id: "chronic", name: "Chronic Conditions" },
+    { id: "lifestyle", name: "Life Style" },
+    { id: "healthcare", name: "Access to Healthcare" },
+    { id: "disability", name: "Disability" },
+  ];
+  const [activeTab, setActiveTab] = useState(
+    currentSubcategory || healthTabs[0].id
+  );
 
-export default function SubCategory() {
-  const [activeTab, setActiveTab] = useState(tabs[0].id);
-
+  const handleTabChange = (tabId) => {
+    setActiveTab(tabId);
+    onChange(tabId);
+  };
+  //   useEffect(() => {
+  //     setActiveTab(currentSubcategory);
+  //   }, [currentSubcategory]);
   return (
     <div className=" p-1 gap-1 rounded-xl w-auto bg-linear-to-b from-zinc-200 to-zinc-50">
-      {tabs.map((tab) => (
+      {healthTabs.map((tab) => (
         <button
           key={tab.id}
-          onClick={() => setActiveTab(tab.id)}
+          onClick={() => handleTabChange(tab.id)}
           className={`
             relative px-4 py-2 text-sm font-medium rounded-full whitespace-nowrap
             transition-colors duration-200 cursor-pointer
@@ -34,7 +43,7 @@ export default function SubCategory() {
           {activeTab === tab.id && (
             <motion.span
               layoutId="bubble"
-              className="absolute inset-0 rounded-xl bg-white shadow-[0_2px_8px_rgba(137,137,137,0.25)] "
+              className="absolute inset-0 rounded-xl bg-white shadow-[0_2px_8px_rgba(128,128,128,0.25)] "
               transition={{
                 type: "spring",
                 bounce: 0.15,
@@ -42,7 +51,7 @@ export default function SubCategory() {
               }}
             />
           )}
-          <span className="relative z-10">{tab.label}</span>
+          <span className="relative z-10">{tab.name}</span>
         </button>
       ))}
     </div>

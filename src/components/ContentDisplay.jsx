@@ -2,7 +2,12 @@ import MH_Demo_indi_full from "@assets/screenshots/MH_Demo_indi_full.png";
 import Card from "./Card";
 import SubCategory from "./SubCategory";
 
-export default function ContentDisplay({ province, category }) {
+export default function ContentDisplay({
+  province,
+  category,
+  subcategory,
+  onSubcategoryChange,
+}) {
   return (
     <div>
       <Card>
@@ -18,7 +23,8 @@ export default function ContentDisplay({ province, category }) {
 
         {category === "health" && (
           <div className="p-2 sm:p-6 items-center flex flex-col">
-            <SubCategory />
+            <SubCategory onChange={onSubcategoryChange} />
+            <div>this is {subcategory}</div>
           </div>
         )}
       </Card>
