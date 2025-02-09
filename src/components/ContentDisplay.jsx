@@ -9,7 +9,7 @@ export default function ContentDisplay({ province, category }) {
           <div className="p-2 sm:p-6">
             <img
               src={MH_Demo_indi_full}
-              className="rounded-3xl w-full"
+              className="rounded-md w-full sm:rounded-2xl"
               alt="metis homeland demographic"
             />
           </div>

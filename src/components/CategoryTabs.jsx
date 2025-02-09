@@ -1,11 +1,12 @@
 import React, { useEffect, useRef } from "react";
 import styled from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function CategoryTabs({
   categories,
   currentCategory,
   onChange,
-  children, // 添加children参数
+  children,
 }) {
   const tabsRef = useRef({});
   const indicatorRef = useRef(null);
@@ -37,6 +38,8 @@ export default function CategoryTabs({
               htmlFor={`cat-${cat.id}`}
               ref={(el) => (tabsRef.current[cat.id] = el)}
             >
+              {cat.icon && <FontAwesomeIcon icon={cat.icon} className="mr-2" />}
+
               {cat.name}
             </label>
           </React.Fragment>
@@ -55,7 +58,7 @@ const StyledWrapper = styled.div`
     flex-direction: row;
     align-items: flex-start;
     padding: 2px;
-    background-color: #f8f9fa;
+    background-color: #ededed;
     border-radius: 9px 9px 0 0;
     border: 1px solid #e2e8f0;
     border-bottom: none;
@@ -71,7 +74,6 @@ const StyledWrapper = styled.div`
     background: #ffffff;
     position: absolute;
     top: 2px;
-    z-index: 9;
     border-radius: 7px 7px 0 0;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.05);
@@ -80,7 +82,6 @@ const StyledWrapper = styled.div`
   .tab {
     height: 36px;
     position: absolute;
-    z-index: 99;
     outline: none;
     opacity: 0;
     cursor: pointer;
@@ -89,7 +90,7 @@ const StyledWrapper = styled.div`
   .tab_label {
     height: 36px;
     position: relative;
-    z-index: 999;
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;

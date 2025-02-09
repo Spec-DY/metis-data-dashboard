@@ -4,7 +4,7 @@ import SnapShot from "./pages/SnapShot";
 import StaticNavBar from "./components/StaticNavBar";
 
 const PageLayout = ({ children }) => {
-  return <div className="mt-24 items-center flex flex-col">{children}</div>;
+  return <div className="mt-10 items-center flex flex-col">{children}</div>;
 };
 
 function App() {

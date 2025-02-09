@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Card = ({ children }) => {
   return (
     <StyledWrapper>
-      <div className="card">{children}</div>
+      <div className="card motion-preset-expand">{children}</div>
     </StyledWrapper>
   );
 };

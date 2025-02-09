@@ -6,6 +6,16 @@ import CategoryTabs from "@components/CategoryTabs";
 import Card from "@components/Card";
 import MH_Demo_indi_full from "@assets/screenshots/MH_Demo_indi_full.png";
 import BacktoTop from "@components/BacktoTop";
+import {
+  faGraduationCap,
+  faHandshakeAngle,
+  faHeartPulse,
+  faUsers,
+  faHouse,
+  faBriefcase,
+  faLanguage,
+  faGlobe,
+} from "@fortawesome/free-solid-svg-icons";
 
 const PROVINCES = [
   { id: "Homeland", name: "Métis Homeland" },
@@ -17,13 +27,13 @@ const PROVINCES = [
 ];
 
 const CATEGORIES = [
-  { id: "demographic", name: "Demographic" },
-  { id: "health", name: "Health" },
-  { id: "education", name: "Education" },
-  { id: "housing", name: "Housing" },
-  { id: "labor", name: "Labor Activities" },
-  { id: "language", name: "Language" },
-  { id: "community", name: "Community" },
+  { id: "demographic", name: "Demographic", icon: faUsers },
+  { id: "health", name: "Health", icon: faHeartPulse },
+  { id: "education", name: "Education", icon: faGraduationCap },
+  { id: "housing", name: "Housing", icon: faHouse },
+  { id: "labor", name: "Labor Activities", icon: faBriefcase },
+  { id: "language", name: "Language", icon: faGlobe },
+  { id: "community", name: "Community", icon: faHandshakeAngle },
 ];
 
 export default function SnapShot() {
@@ -67,7 +77,7 @@ export default function SnapShot() {
       <h2 className="text-lg sm:text-2xl font-bold mb-2 text-center">
         {currentProvinceName} - {currentCategoryName}
       </h2>
-      <div className="mt-6">
+      <div className="mt-4 sm:mt-6">
         <ContentDisplay province={currentProvince} category={currentCategory} />
       </div>
     </div>
@@ -89,7 +99,7 @@ export default function SnapShot() {
 
       <div className="hidden sm:block">
         {/* display province tab in big screen */}
-        <div className="mb-8 border-b border-gray-400">
+        <div className="mb-6 border-b border-gray-400">
           <div className="flex space-x-6 overflow-auto">
             {PROVINCES.map((prov) => (
               <button
@@ -123,6 +133,8 @@ export default function SnapShot() {
       <div className="mt-4"></div>
 
       {/* category tabs */}
+
+      {/* for small screen */}
       <div className="block sm:hidden">
         <div className="flex justify-center items-center mb-4">
           <DropDown
@@ -135,7 +147,7 @@ export default function SnapShot() {
           {content}
         </div>
       </div>
-
+      {/* for big screen */}
       <div className="hidden sm:block">
         <CategoryTabs
           categories={CATEGORIES}
