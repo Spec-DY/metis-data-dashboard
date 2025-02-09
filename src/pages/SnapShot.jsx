@@ -100,19 +100,20 @@ export default function SnapShot() {
       <div className="hidden sm:block">
         {/* display province tab in big screen */}
         <div className="mb-6 border-b border-gray-400">
-          <div className="flex space-x-6 overflow-auto">
+          <div className="flex space-x-6 overflow-auto bg-linear-to-b from-zinc-200 to-zinc-50 rounded-lg">
             {PROVINCES.map((prov) => (
               <button
                 key={prov.id}
                 onClick={() => handleProvinceChange(prov.id)}
                 className={`
+                  cursor-pointer
                   relative py-4 px-3
                   text-lg font-medium
                   transition-colors duration-200
                   hover:bg-gray-50 rounded-md
                   ${
                     currentProvince === prov.id
-                      ? "text-blue-600"
+                      ? "text-blue-500"
                       : "text-gray-600 hover:text-gray-900"
                   }
                 

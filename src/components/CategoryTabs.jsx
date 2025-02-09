@@ -24,9 +24,11 @@ export default function CategoryTabs({
   const handleTabChange = (categoryId) => {
     onChange(categoryId);
     const selectedTab = tabsRef.current[categoryId];
+
     if (selectedTab) {
       selectedTab.scrollIntoView({
         behavior: "instant",
+        block: "center",
         inline: "center",
       });
     }
@@ -34,7 +36,8 @@ export default function CategoryTabs({
 
   return (
     <StyledWrapper>
-      <div className="tab-container overflow-auto">
+      {/* bg-radial-[at_50%_75%] from-blue-50 via-blue-100 to-blue-200 to-90% */}
+      <div className="tab-container overflow-auto bg-gradient-to-b from-zinc-200 to-zinc-100">
         {categories.map((cat) => (
           <React.Fragment key={cat.id}>
             <input
@@ -46,7 +49,7 @@ export default function CategoryTabs({
               onChange={() => handleTabChange(cat.id)}
             />
             <label
-              className="tab_label"
+              className="tab_label text-gray-600"
               htmlFor={`cat-${cat.id}`}
               ref={(el) => (tabsRef.current[cat.id] = el)}
             >
@@ -71,7 +74,7 @@ const StyledWrapper = styled.div`
     flex-direction: row;
     align-items: flex-start;
     padding: 2px;
-    background-color: #ededed;
+
     border-radius: 9px 9px 0 0;
     border: 1px solid #e2e8f0;
     border-bottom: none;
@@ -104,7 +107,6 @@ const StyledWrapper = styled.div`
     align-items: center;
     justify-content: center;
     font-size: 0.875rem;
-    color: #64748b;
     cursor: pointer;
     transition: all 0.3s ease;
     border-radius: 7px 7px 0 0;

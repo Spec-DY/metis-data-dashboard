@@ -1,5 +1,6 @@
 import MH_Demo_indi_full from "@assets/screenshots/MH_Demo_indi_full.png";
 import Card from "./Card";
+import SubCategory from "./SubCategory";
 
 export default function ContentDisplay({ province, category }) {
   return (
@@ -14,9 +15,13 @@ export default function ContentDisplay({ province, category }) {
             />
           </div>
         )}
-      </Card>
 
-      {province === "Homeland" && category === "health" && <Card />}
+        {category === "health" && (
+          <div className="p-2 sm:p-6 items-center flex flex-col">
+            <SubCategory />
+          </div>
+        )}
+      </Card>
     </div>
   );
 }
