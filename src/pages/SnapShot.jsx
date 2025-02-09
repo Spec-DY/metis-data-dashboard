@@ -3,8 +3,6 @@ import { useNavigate, useParams } from "react-router-dom";
 import ContentDisplay from "@components/ContentDisplay";
 import DropDown from "@components/DropDown";
 import CategoryTabs from "@components/CategoryTabs";
-import Card from "@components/Card";
-import MH_Demo_indi_full from "@assets/screenshots/MH_Demo_indi_full.png";
 import BacktoTop from "@components/BacktoTop";
 import {
   faGraduationCap,
@@ -48,8 +46,7 @@ export default function SnapShot() {
   );
 
   const [currentSubCategory, setCurrentSubCategory] = useState(
-    subcategory ||
-      (SUBCATEGORIES[category] ? SUBCATEGORIES[category][0].id : null)
+    subcategory || "general"
   );
 
   const currentCategoryName = CATEGORIES.find(

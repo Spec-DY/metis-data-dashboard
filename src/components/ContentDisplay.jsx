@@ -1,6 +1,9 @@
-import MH_Demo_indi_full from "@assets/screenshots/MH_Demo_indi_full.png";
+import MH_demo_full from "@assets/screenshots/MH_demo_full.png";
 import Card from "./Card";
 import SubCategory from "./SubCategory";
+import MH_general_health from "@assets/screenshots/MH_general_health_full.png";
+import MH_mental_health from "@assets/screenshots/MH_mental_health_full.png";
+import MH_chronic_conditions from "@assets/screenshots/MH_chronic_health_full.png";
 
 export default function ContentDisplay({
   province,
@@ -14,7 +17,7 @@ export default function ContentDisplay({
         {province === "Homeland" && category === "demographic" && (
           <div className="p-2 sm:p-6">
             <img
-              src={MH_Demo_indi_full}
+              src={MH_demo_full}
               className="rounded-md w-full sm:rounded-2xl"
               alt="metis homeland demographic"
             />
@@ -24,7 +27,31 @@ export default function ContentDisplay({
         {category === "health" && (
           <div className="p-2 sm:p-6 items-center flex flex-col">
             <SubCategory onChange={onSubcategoryChange} />
-            <div>this is {subcategory}</div>
+            <div className="mt-6">
+              {subcategory === "general" && (
+                <img
+                  src={MH_general_health}
+                  className="rounded-md w-full sm:rounded-2xl"
+                  alt="metis general health"
+                />
+              )}
+
+              {subcategory === "mental" && (
+                <img
+                  src={MH_mental_health}
+                  className="rounded-md w-full sm:rounded-2xl"
+                  alt="metis mental health"
+                />
+              )}
+
+              {subcategory === "chronic" && (
+                <img
+                  src={MH_chronic_conditions}
+                  className="rounded-md w-full sm:rounded-2xl"
+                  alt="metis chronic conditions"
+                />
+              )}
+            </div>
           </div>
         )}
       </Card>
