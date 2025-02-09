@@ -1,6 +1,7 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function CategoryTabs({
   categories,
@@ -20,6 +21,17 @@ export default function CategoryTabs({
     }
   }, [currentCategory]);
 
+  const handleTabChange = (categoryId) => {
+    onChange(categoryId);
+    const selectedTab = tabsRef.current[categoryId];
+    if (selectedTab) {
+      selectedTab.scrollIntoView({
+        behavior: "instant",
+        inline: "center",
+      });
+    }
+  };
+
   return (
     <StyledWrapper>
       <div className="tab-container overflow-auto">
@@ -31,7 +43,7 @@ export default function CategoryTabs({
               id={`cat-${cat.id}`}
               className="tab"
               checked={currentCategory === cat.id}
-              onChange={() => onChange(cat.id)}
+              onChange={() => handleTabChange(cat.id)}
             />
             <label
               className="tab_label"
@@ -46,6 +58,7 @@ export default function CategoryTabs({
         ))}
         <div className="indicator" ref={indicatorRef} />
       </div>
+
       <div className="content-area">{children}</div>
     </StyledWrapper>
   );
@@ -62,10 +75,6 @@ const StyledWrapper = styled.div`
     border-radius: 9px 9px 0 0;
     border: 1px solid #e2e8f0;
     border-bottom: none;
-
-    @media (max-width: 640px) {
-      display: none;
-    }
   }
 
   .indicator {
@@ -121,11 +130,5 @@ const StyledWrapper = styled.div`
     min-height: 200px;
     margin-top: -1px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-
-    @media (max-width: 640px) {
-      border-radius: 9px;
-      border: 1px solid #e2e8f0;
-      margin-top: 1rem;
-    }
   }
 `;
