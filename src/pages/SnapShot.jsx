@@ -136,7 +136,7 @@ export default function SnapShot() {
       {/* category tabs */}
 
       {/* for small screen */}
-      {/* <div className="block sm:hidden">
+      <div className="block sm:hidden">
         <div className="flex justify-center items-center mb-4">
           <DropDown
             value={currentCategory}
@@ -147,9 +147,9 @@ export default function SnapShot() {
         <div className="bg-white rounded-lg border border-gray-200 shadow-sm">
           {content}
         </div>
-      </div> */}
+      </div>
       {/* for big screen */}
-      <div>
+      <div className="hidden sm:block">
         <CategoryTabs
           categories={CATEGORIES}
           currentCategory={currentCategory}
