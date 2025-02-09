@@ -1,9 +1,9 @@
-import MH_demo_full from "@assets/screenshots/MH_demo_full.png";
+import MH_demo_full from "@MH/MH_demo_full.png";
 import Card from "./Card";
 import SubCategory from "./SubCategory";
-import MH_general_health from "@assets/screenshots/MH_general_health_full.png";
-import MH_mental_health from "@assets/screenshots/MH_mental_health_full.png";
-import MH_chronic_conditions from "@assets/screenshots/MH_chronic_health_full.png";
+import MH_general_health from "@MH/MH_general_health_full.png";
+import MH_mental_health from "@MH/MH_mental_health_full.png";
+import MH_chronic_conditions from "@MH/MH_chronic_health_full.png";
 
 export default function ContentDisplay({
   province,
