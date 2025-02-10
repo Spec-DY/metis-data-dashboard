@@ -14,6 +14,18 @@ import MH_labor from "@MH/MH_labor.png";
 import MH_language from "@MH/MH_language.png";
 import MH_community from "@MH/MH_community.png";
 
+import BC_demographic from "@BC/BC_demographic.png";
+import BC_general_health from "@BC/BC_general_health.png";
+import BC_mental_health from "@BC/BC_mental_health.png";
+import BC_chronic_conditions from "@BC/BC_chronic_health.png";
+import BC_healthcare_health from "@BC/BC_healthcare_health.png";
+import BC_disability_health from "@BC/BC_disability_health.png";
+import BC_education from "@BC/BC_education.png";
+import BC_housing from "@BC/BC_housing.png";
+import BC_labor from "@BC/BC_labor.png";
+import BC_language from "@BC/BC_language.png";
+import BC_community from "@BC/BC_community.png";
+
 export default function ContentDisplay({
   province,
   category,
@@ -50,6 +62,8 @@ export default function ContentDisplay({
   return (
     <div>
       <Card>
+        {/* ===========Homeland============ */}
+
         {province === "Homeland" && category === "demographic" && (
           <div className="p-2 sm:p-6">
             {renderImage(MH_demographic, "metis homeland demographic")}
@@ -106,6 +120,72 @@ export default function ContentDisplay({
         {province === "Homeland" && category === "community" && (
           <div className="p-2 sm:p-6">
             {renderImage(MH_community, "metis community")}
+          </div>
+        )}
+
+        {/* ===========British Columbia============ */}
+        {province === "BC" && category === "demographic" && (
+          <div className="p-2 sm:p-6">
+            {renderImage(BC_demographic, "bc demographic")}
+          </div>
+        )}
+
+        {province === "BC" && category === "health" && (
+          <div className="p-2 sm:p-6 items-center flex flex-col">
+            <SubCategory
+              onChange={onSubcategoryChange}
+              currentSubcategory={subcategory}
+              province={province}
+              category={category}
+            />
+            <div className="mt-6">
+              {subcategory === "general" &&
+                renderImage(BC_general_health, "bc general health")}
+              {subcategory === "mental" &&
+                renderImage(BC_mental_health, "bc mental health")}
+              {subcategory === "chronic" &&
+                renderImage(BC_chronic_conditions, "bc chronic conditions")}
+              {subcategory === "healthcare" &&
+                renderImage(BC_healthcare_health, "bc healthcare access")}
+              {subcategory === "disability" &&
+                renderImage(BC_disability_health, "bc disability")}
+            </div>
+          </div>
+        )}
+
+        {province === "BC" && category === "education" && (
+          <div className="p-2 sm:p-6">
+            {renderImage(BC_education, "bc education")}
+          </div>
+        )}
+
+        {province === "BC" && category === "housing" && (
+          <div className="p-2 sm:p-6">
+            {renderImage(BC_housing, "bc housing")}
+          </div>
+        )}
+
+        {province === "BC" && category === "labor" && (
+          <div className="p-2 sm:p-6">{renderImage(BC_labor, "bc labor")}</div>
+        )}
+
+        {province === "BC" && category === "language" && (
+          <div className="p-2 sm:p-6">
+            {renderImage(BC_language, "bc language")}
+          </div>
+        )}
+
+        {province === "BC" && category === "community" && (
+          <div className="p-2 sm:p-6">
+            {renderImage(BC_community, "bc community")}
+          </div>
+        )}
+
+        {/* ===========Alberta============ */}
+
+        {province === "AB" && category === "demographic" && (
+          <div className="p-2 sm:p-6">
+            {renderImage(MH_demographic, "metis homeland demographic")}
           </div>
         )}
       </Card>

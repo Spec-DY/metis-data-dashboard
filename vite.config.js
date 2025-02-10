@@ -14,6 +14,8 @@ export default defineConfig({
       "@pages": path.resolve(__dirname, "./src/pages"),
       "@assets": path.resolve(__dirname, "./src/assets"),
       "@MH": path.resolve(__dirname, "./src/assets/screenshots/MH"),
+      "@BC": path.resolve(__dirname, "./src/assets/screenshots/BC"),
+      "@AB": path.resolve(__dirname, "./src/assets/screenshots/AB"),
     },
   },
   // development server
