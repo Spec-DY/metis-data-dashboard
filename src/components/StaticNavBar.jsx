@@ -2,7 +2,7 @@ import systemway_logo from "@assets/systemway_logo.png";
 
 export default function StaticNavBar() {
   return (
-    <div className="navbar shadow-md px-2 ">
+    <div className="navbar shadow-md px-2 bg-white ">
       <div className="navbar-start">
         <a
           className="btn btn-ghost p-2 h-12 "
