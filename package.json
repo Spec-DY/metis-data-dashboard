@@ -17,16 +17,13 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@headlessui/react": "^2.2.0",
     "@heroicons/react": "^2.2.0",
-    "@heroui/react": "^2.6.14",
     "@mui/material": "^6.4.3",
     "@tailwindcss/vite": "^4.0.4",
     "clsx": "^2.1.1",
     "framer-motion": "^12.4.1",
-    "lucide-react": "^0.475.0",
     "motion": "^12.4.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-icons": "^5.4.0",
     "react-router-dom": "^7.1.5",
     "styled-components": "^6.1.15",
     "tailwind-merge": "^3.0.1",
@@ -43,7 +40,6 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.18",
     "globals": "^15.14.0",
-    "tailwindcss-motion": "^1.0.1",
     "vite": "^6.1.0"
   }
 }

@@ -5,14 +5,14 @@ export default function StaticNavBar() {
     <div className="navbar shadow-md px-2 bg-white ">
       <div className="navbar-start">
         <a
-          className="btn btn-ghost p-2 h-12 "
+          className="z-10"
           href="https://systemwayconsulting.ca/"
           target="_blank"
         >
           <img
             src={systemway_logo}
             alt="Systemway Logo"
-            className="h-10 w-auto object-contain"
+            className="h-11 w-auto"
           />
         </a>
       </div>
