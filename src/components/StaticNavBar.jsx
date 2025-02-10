@@ -2,10 +2,10 @@ import systemway_logo from "@assets/systemway_logo.png";
 
 export default function StaticNavBar() {
   return (
-    <div className="navbar shadow-md px-2">
+    <div className="navbar shadow-md px-2 ">
       <div className="navbar-start">
         <a
-          className="btn btn-ghost p-2 h-12"
+          className="btn btn-ghost p-2 h-12 "
           href="https://systemwayconsulting.ca/"
           target="_blank"
         >
@@ -18,7 +18,11 @@ export default function StaticNavBar() {
       </div>
       <div className="navbar-center hidden lg:flex">
         <div className="dropdown dropdown-hover">
-          <div tabIndex={0} role="button" className="btn m-1">
+          <div
+            tabIndex={0}
+            role="button"
+            className="btn m-1 bg-gradient-to-b from-zinc-200 to-zinc-50"
+          >
             Snapshot
             {/* dropdown icon */}
             <svg
