@@ -16,6 +16,7 @@ export default defineConfig({
       "@MH": path.resolve(__dirname, "./src/assets/screenshots/MH"),
     },
   },
+  // development server
   server: {
     host: "0.0.0.0",
     port: 5173,

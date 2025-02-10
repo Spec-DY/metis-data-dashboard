@@ -68,25 +68,19 @@ export default function SnapShot() {
   const handleProvinceChange = (provinceId) => {
     setCurrentProvince(provinceId);
     // if no subcategory, navigate to category similar for below handle functions
-    navigate(
-      `/snapshot/${provinceId}/${currentCategory}${currentSubCategory}? ` /
-        $(currentSubCategory)`:''`
-    );
+    navigate(`/snapshot/${provinceId}/${currentCategory}`);
   };
 
   const handleCategoryChange = (categoryId) => {
     setCurrentCategory(categoryId);
 
-    const newSubCategory = SUBCATEGORIES[categoryId]
-      ? SUBCATEGORIES[categoryId][0].id
-      : null;
-    setCurrentSubCategory(newSubCategory);
-
-    navigate(
-      `/snapshot/${currentProvince}/${categoryId}${
-        newSubCategory ? `/${newSubCategory}` : ""
-      }`
-    );
+    if (categoryId === "health") {
+      setCurrentSubCategory("general"); // this is actually redundant since usestate already set it to general
+      navigate(`/snapshot/${currentProvince}/${categoryId}/general`);
+    } else {
+      setCurrentSubCategory(null);
+      navigate(`/snapshot/${currentProvince}/${categoryId}`);
+    }
   };
 
   const handleSubCategoryChange = (subcategoryId) => {
