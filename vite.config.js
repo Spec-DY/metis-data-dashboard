@@ -16,6 +16,7 @@ export default defineConfig({
       "@MH": path.resolve(__dirname, "./src/assets/screenshots/MH"),
       "@BC": path.resolve(__dirname, "./src/assets/screenshots/BC"),
       "@AB": path.resolve(__dirname, "./src/assets/screenshots/AB"),
+      "@SK": path.resolve(__dirname, "./src/assets/screenshots/SK"),
     },
   },
   // development server
