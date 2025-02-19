@@ -6,7 +6,8 @@ export default function SubCategory({ currentSubcategory, onChange }) {
     { id: "general", name: "General Health" },
     { id: "mental", name: "Mental Health" },
     { id: "chronic", name: "Chronic Conditions" },
-    { id: "lifestyle", name: "Life Style" },
+    { id: "lifestylept1", name: "Life Style Part 1" },
+    { id: "lifestylept2", name: "Life Style Part 2" },
     { id: "healthcare", name: "Access to Healthcare" },
     { id: "disability", name: "Disability" },
   ];

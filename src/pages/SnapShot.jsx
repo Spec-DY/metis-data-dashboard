@@ -11,7 +11,6 @@ import {
   faUsers,
   faHouse,
   faBriefcase,
-  faLanguage,
   faGlobe,
 } from "@fortawesome/free-solid-svg-icons";
 
