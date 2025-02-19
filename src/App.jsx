@@ -10,7 +10,7 @@ const PageLayout = ({ children }) => {
 
 function App() {
   return (
-    <BrowserRouter basename="/data">
+    <BrowserRouter>
       {/* uncomment below line when there will be more tabs than snapshot */}
       {/* <NaviBar /> */}
 
