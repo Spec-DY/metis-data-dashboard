@@ -1,8 +1,10 @@
 import NaviBar from "./components/NaviBar";
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
+// import {BrowserRouter} from "react-router-dom";
 import SnapShot from "./pages/SnapShot";
 import StaticNavBar from "./components/StaticNavBar";
 import Background from "./components/Background";
+import { HashRouter } from "react-router-dom";
 
 const PageLayout = ({ children }) => {
   return <div className="mt-10 items-center flex flex-col">{children}</div>;
@@ -10,10 +12,9 @@ const PageLayout = ({ children }) => {
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       {/* uncomment below line when there will be more tabs than snapshot */}
       {/* <NaviBar /> */}
-
       <Background>
         <StaticNavBar />
         <PageLayout>
@@ -31,7 +32,7 @@ function App() {
           </Routes>
         </PageLayout>
       </Background>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
