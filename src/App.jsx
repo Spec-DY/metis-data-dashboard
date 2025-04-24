@@ -1,7 +1,6 @@
 import { Route, Routes, Navigate } from "react-router-dom";
-// import {BrowserRouter} from "react-router-dom";
 import SnapShot from "./pages/SnapShot";
-import StaticNavBar from "./components/StaticNavBar";
+import NavBar from "./components/NavBar";
 import Background from "./components/Background";
 import { HashRouter } from "react-router-dom";
 import Profile from "./pages/Profile";
@@ -13,10 +12,8 @@ const PageLayout = ({ children }) => {
 function App() {
   return (
     <HashRouter>
-      {/* uncomment below line when there will be more tabs than snapshot */}
-      {/* <NaviBar /> */}
       <Background>
-        <StaticNavBar />
+        <NavBar />
         <PageLayout>
           <Routes>
             <Route path="/" element={<Navigate to="/snapshot" replace />} />

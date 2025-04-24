@@ -2,7 +2,7 @@ import systemway_logo from "@assets/systemway_logo.png";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useState } from "react";
 
-export default function StaticNavBar() {
+export default function NavBar() {
   const location = useLocation();
   const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,7 +33,7 @@ export default function StaticNavBar() {
       </div>
 
       {/* Desktop ver */}
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-center hidden md:flex">
         {tabs.map((tab, index) => (
           <div
             key={index}
@@ -55,7 +55,7 @@ export default function StaticNavBar() {
 
       {/* Mobile nav button */}
       <div className="navbar-end">
-        <div className="lg:hidden">
+        <div className="md:hidden">
           <button onClick={toggleMenu} className="btn btn-square btn-ghost">
             <svg
               xmlns="http://www.w3.org/2000/svg"
