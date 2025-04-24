@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function CategoryTabs({
@@ -34,102 +33,40 @@ export default function CategoryTabs({
   };
 
   return (
-    <StyledWrapper>
-      {/* bg-radial-[at_50%_75%] from-blue-50 via-blue-100 to-blue-200 to-90% */}
-      <div className="tab-container overflow-auto bg-gradient-to-b from-zinc-200 to-zinc-100">
+    <div className="w-full">
+      {/* Tab container with gradient background */}
+      <div className="relative flex flex-row items-start p-0.5 overflow-auto rounded-t-lg border border-b-0 border-slate-200 bg-gradient-to-b from-zinc-200 to-zinc-100">
         {categories.map((cat) => (
           <React.Fragment key={cat.id}>
             <input
               type="radio"
               name="category"
               id={`cat-${cat.id}`}
-              className="tab"
+              className="absolute opacity-0 outline-none cursor-pointer h-9"
               checked={currentCategory === cat.id}
               onChange={() => handleTabChange(cat.id)}
             />
             <label
-              className="tab_label text-gray-600"
+              className="relative z-10 flex items-center justify-center h-9 px-6 text-sm text-gray-600 cursor-pointer transition-all duration-300 ease-in-out rounded-t-lg whitespace-nowrap hover:bg-white/50 peer-checked:text-blue-600 peer-checked:translate-y-[-2px]"
               htmlFor={`cat-${cat.id}`}
               ref={(el) => (tabsRef.current[cat.id] = el)}
             >
               {cat.icon && <FontAwesomeIcon icon={cat.icon} className="mr-2" />}
-
               {cat.name}
             </label>
           </React.Fragment>
         ))}
-        <div className="indicator" ref={indicatorRef} />
+        {/* Indicator */}
+        <div
+          className="absolute h-9 bg-white rounded-t-lg shadow-[0_-4px_8px_rgba(0,0,0,0.05)] transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] top-0.5"
+          ref={indicatorRef}
+        />
       </div>
 
-      <div className="content-area">{children}</div>
-    </StyledWrapper>
+      {/* Content area */}
+      <div className="relative bg-white border border-slate-200 border-t-0 rounded-b-lg min-h-[600px] -mt-px shadow-md">
+        {children}
+      </div>
+    </div>
   );
 }
-
-const StyledWrapper = styled.div`
-  .tab-container {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 2px;
-
-    border-radius: 9px 9px 0 0;
-    border: 1px solid #e2e8f0;
-    border-bottom: none;
-  }
-
-  .indicator {
-    content: "";
-    height: 36px;
-    background: #ffffff;
-    position: absolute;
-    top: 2px;
-    border-radius: 7px 7px 0 0;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.05);
-  }
-
-  .tab {
-    height: 36px;
-    position: absolute;
-    outline: none;
-    opacity: 0;
-    cursor: pointer;
-  }
-
-  .tab_label {
-    height: 36px;
-    position: relative;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.875rem;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    border-radius: 7px 7px 0 0;
-    padding: 0 1.5rem;
-    white-space: nowrap;
-
-    &:hover {
-      background-color: rgba(255, 255, 255, 0.5);
-    }
-  }
-
-  input:checked + .tab_label {
-    color: #2563eb;
-    transform: translateY(-2px);
-  }
-
-  .content-area {
-    background: #ffffff;
-    position: relative;
-    border: 1px solid #e2e8f0;
-    border-top: none;
-    border-radius: 0 0 9px 9px;
-    min-height: 200px;
-    margin-top: -1px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-  }
-`;

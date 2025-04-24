@@ -14,9 +14,9 @@ function App() {
   return (
     <HashRouter>
       {/* uncomment below line when there will be more tabs than snapshot */}
-      {/* <NaviBar /> */}
+      <NaviBar />
       <Background>
-        <StaticNavBar />
+        {/* <StaticNavBar /> */}
         <PageLayout>
           <Routes>
             <Route path="/" element={<Navigate to="/snapshot" replace />} />
