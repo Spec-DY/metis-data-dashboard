@@ -1,10 +1,60 @@
-import React from "react";
-import styled from "styled-components";
+import React, { useEffect, useState } from "react";
 
 export default function BacktoTop() {
+  const [showScroll, setShowScroll] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY >= 350) {
+        setShowScroll(true);
+      } else {
+        setShowScroll(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
-    <StyledWrapper>
-      <a id="scroll-up" className="scroll-up" href="#">
+    <div>
+      <a
+        id="scroll-up"
+        className={`
+          fixed
+          no-underline
+          right-12 
+          ${showScroll ? "bottom-12" : "-bottom-[50%]"} 
+          z-10 
+          w-8 
+          h-8 
+          rounded 
+          bg-[rgba(29,29,31,0.7)] 
+          backdrop-blur-lg 
+          backdrop-saturate-[180%] 
+          flex 
+          items-center 
+          justify-center 
+          overflow-hidden 
+          transition-all 
+          duration-400 
+          hover:-translate-y-1
+          xl:right-12
+          max-xl:right-4
+        `}
+        href="#"
+        onClick={(e) => {
+          e.preventDefault();
+          scrollUp();
+        }}
+      >
         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 0h24v24H0z" fill="none" />
           <path
@@ -13,46 +63,6 @@ export default function BacktoTop() {
           ></path>
         </svg>
       </a>
-    </StyledWrapper>
+    </div>
   );
 }
-
-const StyledWrapper = styled.div`
-  /* <reset-style> ============================ */
-  a {
-    text-decoration: none;
-  }
-  /* <main-style> ============================ */
-  .scroll-up {
-    /* position: fixed; */
-    right: 3rem;
-    bottom: -50%;
-    z-index: 10;
-    width: 32px;
-    height: 32px;
-    border-radius: 4px;
-    background-color: rgba(29, 29, 31, 0.7);
-    backdrop-filter: saturate(180%) blur(20px);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    transition: bottom 0.4s, transform 0.4s;
-  }
-
-  .scroll-up:hover {
-    transform: translateY(-0.25rem);
-  }
-
-  /* Show scroll-up */
-  ._show-scroll {
-    bottom: 3rem;
-  }
-
-  @media (max-width: 1199.98px) {
-    .scroll-up {
-      right: 1rem;
-    }
-  }
-`;
