@@ -2,7 +2,7 @@ import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 export default function ProvinceSelect({ value, options, onChange }) {
-  // 获取当前选中项的名称
+  // get current selected name
   const selectedName = options.find((opt) => opt.id === value)?.name || "";
 
   return (

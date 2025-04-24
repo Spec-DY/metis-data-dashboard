@@ -1,1 +1,12 @@
 @import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default;
+}
+@theme {
+  --color-systemway-400: #a8c138;
+  --color-systemway-300: #c9d883;
+  --color-systemway-200: #d4e09c;
+  --color-systemway-100: #dee8b4;
+  --color-systemway-50: #e9f0cd;
+  --color-systemway-0: #f4f7e6;
+}
