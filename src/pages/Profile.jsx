@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import CategoryTabs from "@components/common/CategoryTabs";
 import Card from "@components/common/Card";
 import DropDown from "@components/common/DropDown";
+import HorizontalStackedBarChart from "@components/view/ProfileCharts/HorizontalStackedBarChart";
 import {
   faGraduationCap,
   faBriefcase,
@@ -34,7 +35,16 @@ export default function Profile() {
         {/* display content */}
         {currentCategory === "demographic" && (
           <div>
-            <Card>demographic content </Card>
+            <Card>
+              <div className="flex flex-row">
+                <div className=" w-1/2 mx-auto">
+                  <HorizontalStackedBarChart />
+                </div>
+                <div className=" w-1/2 mx-auto">
+                  <HorizontalStackedBarChart />
+                </div>
+              </div>
+            </Card>
           </div>
         )}
 
@@ -52,17 +62,13 @@ export default function Profile() {
 
         {currentCategory === "labourForce" && (
           <div>
-            <p>
-              <Card>Labour Force content goes here.</Card>
-            </p>
+            <Card>Labour Force content goes here.</Card>
           </div>
         )}
 
         {currentCategory === "income" && (
           <div>
-            <p>
-              <Card>Income content goes here.</Card>
-            </p>
+            <Card>Income content goes here.</Card>
           </div>
         )}
       </div>
