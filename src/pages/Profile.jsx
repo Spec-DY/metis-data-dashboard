@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import CategoryTabs from "@components/CategoryTabs";
+import CategoryTabs from "@components/common/CategoryTabs";
+import Card from "@components/common/Card";
+import DropDown from "@components/common/DropDown";
 import {
   faGraduationCap,
   faBriefcase,
@@ -10,7 +12,7 @@ import {
 
 export default function Profile() {
   const categories = [
-    { id: "demographics", name: "Demographics", icon: faUsers },
+    { id: "demographic", name: "Demographic", icon: faUsers },
     { id: "housing", name: "Housing", icon: faHouse },
     { id: "education", name: "Education", icon: faGraduationCap },
     { id: "labourForce", name: "Labour Force", icon: faBriefcase },
@@ -26,37 +28,41 @@ export default function Profile() {
   const content = (
     <div className="px-4 py-6">
       <h2 className="text-lg sm:text-2xl font-bold mb-2 text-center">
-        {categories.find((cat) => cat.id === currentCategory)?.name}
+        {categories.find((cat) => cat.id === currentCategory)?.name} - 2016
       </h2>
       <div className="mt-4 sm:mt-6">
         {/* display content */}
-        {currentCategory === "demographics" && (
+        {currentCategory === "demographic" && (
           <div>
-            <p>Demographics content goes here.</p>
+            <Card>demographic content </Card>
           </div>
         )}
 
         {currentCategory === "housing" && (
           <div>
-            <p>Housing content goes here.</p>
+            <Card>housing content</Card>
           </div>
         )}
 
         {currentCategory === "education" && (
           <div>
-            <p>Education content goes here.</p>
+            <Card>Education content goes here.</Card>
           </div>
         )}
 
         {currentCategory === "labourForce" && (
           <div>
-            <p>Labour Force content goes here.</p>
+            <p>
+              <Card>Labour Force content goes here.</Card>
+            </p>
           </div>
         )}
 
         {currentCategory === "income" && (
           <div>
-            <p>Income content goes here.</p>
+            <p>
+              <Card>Income content goes here.</Card>
+            </p>
           </div>
         )}
       </div>
@@ -75,20 +81,14 @@ export default function Profile() {
         </CategoryTabs>
       </div>
 
-      {/* dropdown for mobile） */}
+      {/* dropdown for mobile */}
       <div className="block sm:hidden">
         <div className="flex justify-center items-center mb-4">
-          <select
+          <DropDown
             value={currentCategory}
-            onChange={(e) => handleCategoryChange(e.target.value)}
-            className="rounded border border-gray-300 py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
-          >
-            {categories.map((cat) => (
-              <option key={cat.id} value={cat.id}>
-                {cat.name}
-              </option>
-            ))}
-          </select>
+            onChange={handleCategoryChange}
+            options={categories}
+          />
         </div>
         <div className="bg-white rounded-lg border border-gray-200 shadow-sm">
           {content}

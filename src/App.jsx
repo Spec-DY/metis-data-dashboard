@@ -1,9 +1,9 @@
 import { Route, Routes, Navigate } from "react-router-dom";
-import SnapShot from "./pages/SnapShot";
-import NavBar from "./components/NavBar";
-import Background from "./components/Background";
+import SnapShot from "@pages/SnapShot";
+import NavBar from "@components/common/NavBar";
+import Background from "@components/common/Background";
 import { HashRouter } from "react-router-dom";
-import Profile from "./pages/Profile";
+import Profile from "@pages/Profile";
 
 const PageLayout = ({ children }) => {
   return <div className="mt-10 items-center flex flex-col">{children}</div>;

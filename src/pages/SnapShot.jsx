@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import ContentDisplay from "@components/ContentDisplay";
-import DropDown from "@components/DropDown";
-import CategoryTabs from "@components/CategoryTabs";
-import BacktoTop from "@components/BacktoTop";
+import ContentDisplay from "@components/view/ContentDisplay";
+import Dropdown from "@components/common/Dropdown";
+import CategoryTabs from "@components/common/CategoryTabs";
+import BacktoTop from "@components/common/BacktoTop";
 import {
   faGraduationCap,
   faHandshakeAngle,
@@ -113,7 +113,7 @@ export default function SnapShot() {
 
       <div className="block sm:hidden">
         <div className="flex justify-center items-center">
-          <DropDown
+          <Dropdown
             value={currentProvince}
             options={PROVINCES}
             onChange={handleProvinceChange}
@@ -162,7 +162,7 @@ export default function SnapShot() {
       {/* for small screen */}
       <div className="block sm:hidden">
         <div className="flex justify-center items-center mb-4">
-          <DropDown
+          <Dropdown
             value={currentCategory}
             options={CATEGORIES}
             onChange={handleCategoryChange}

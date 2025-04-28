@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import Card from "@components/Card";
-import SubCategory from "@components/SubCategory";
+import Card from "@components/common/Card";
+import SubCategory from "@components/common/SubCategory";
 
 import MH_demographic from "@MH/MH_demographic.png";
 import MH_general_health from "@MH/MH_general_health.png";
