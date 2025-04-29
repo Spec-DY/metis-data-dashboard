@@ -1,8 +1,8 @@
-import { Route, Routes, Navigate } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router";
 import SnapShot from "@pages/SnapShot";
 import NavBar from "@components/common/NavBar";
 import Background from "@components/common/Background";
-import { HashRouter } from "react-router-dom";
+import { HashRouter } from "react-router";
 import Profile from "@pages/Profile";
 
 const PageLayout = ({ children }) => {

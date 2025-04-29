@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router";
 import ContentDisplay from "@components/view/ContentDisplay";
 import Dropdown from "@components/common/Dropdown";
 import CategoryTabs from "@components/common/CategoryTabs";

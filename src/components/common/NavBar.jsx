@@ -1,5 +1,5 @@
 import systemway_logo from "@assets/systemway_logo.png";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router";
 import { useState } from "react";
 
 export default function NavBar() {
