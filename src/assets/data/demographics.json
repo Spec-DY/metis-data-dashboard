@@ -1,0 +1,338 @@
+{
+  "ON": {
+    "All": {
+      "year": 2016,
+      "id": "ontario-all",
+      "categories": {
+        "ageDistribution": {
+          "tableData": [
+            {
+              "ageGroup": "0 to 14 years",
+              "total": 132165,
+              "aboriginal": 26230,
+              "metis": 12170,
+              "nonAboriginal": 105935
+            },
+            {
+              "ageGroup": "15 to 24 years",
+              "total": 102245,
+              "aboriginal": 16680,
+              "metis": 8995,
+              "nonAboriginal": 85565
+            },
+            {
+              "ageGroup": "25 to 64 years",
+              "total": 417975,
+              "aboriginal": 44685,
+              "metis": 27365,
+              "nonAboriginal": 373295
+            },
+            {
+              "ageGroup": "65 years and over",
+              "total": 109155,
+              "aboriginal": 5215,
+              "metis": 3595,
+              "nonAboriginal": 103940
+            },
+            {
+              "ageGroup": "Average Age",
+              "total": 39,
+              "aboriginal": 30,
+              "metis": 33,
+              "nonAboriginal": 40
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "0 to 14 years",
+              "15 to 24 years",
+              "25 to 64 years",
+              "65 years and over"
+            ],
+            "datasets": [
+              {
+                "label": "Aboriginal",
+                "data": [19.8, 16.3, 10.7, 4.8],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Metis",
+                "data": [9.2, 8.8, 6.5, 3.3],
+                "backgroundColor": "#6495ED"
+              },
+              {
+                "label": "Non-Aboriginal",
+                "data": [80.2, 83.7, 89.3, 95.2],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "familyStatus": {
+          "tableData": [
+            {
+              "ageGroup": "Married spouses and common-law partners",
+              "total": 348515,
+              "aboriginal": 27060,
+              "metis": 18360,
+              "nonAboriginal": 321455
+            },
+            {
+              "ageGroup": "Lone parents (in lone-parent census families)",
+              "total": 36840,
+              "aboriginal": 8750,
+              "metis": 3755,
+              "nonAboriginal": 28090
+            },
+            {
+              "ageGroup": "Living with two biological or adoptive parents",
+              "total": 161280,
+              "aboriginal": 16375,
+              "metis": 11010,
+              "nonAboriginal": 144900
+            },
+            {
+              "ageGroup": "Living with one biological or adoptive parent and one step-parent",
+              "total": 15730,
+              "aboriginal": 3725,
+              "metis": 2025,
+              "nonAboriginal": 12010
+            },
+            {
+              "ageGroup": "Living with one parent in a lone-parent census family",
+              "total": 56385,
+              "aboriginal": 17610,
+              "metis": 7215,
+              "nonAboriginal": 38780
+            },
+            {
+              "ageGroup": "Living with grandparents without parents present",
+              "total": 2320,
+              "aboriginal": 1125,
+              "metis": 360,
+              "nonAboriginal": 1200
+            },
+            {
+              "ageGroup": "Living with other relatives",
+              "total": 19920,
+              "aboriginal": 2930,
+              "metis": 1120,
+              "nonAboriginal": 16985
+            },
+            {
+              "ageGroup": "Foster children",
+              "total": 3375,
+              "aboriginal": 2605,
+              "metis": 600,
+              "nonAboriginal": 775
+            },
+            {
+              "ageGroup": "Living with non-relatives only or alone",
+              "total": 117175,
+              "aboriginal": 12630,
+              "metis": 7695,
+              "nonAboriginal": 104540
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Married/common-law",
+              "Lone parents",
+              "Two bio/adoptive parents",
+              "Bio/adoptive & step-parent",
+              "One parent (lone-parent family)",
+              "With grandparents only",
+              "With other relatives",
+              "Foster children",
+              "With non-relatives/alone"
+            ],
+            "datasets": [
+              {
+                "label": "Aboriginal",
+                "data": [7.8, 23.8, 10.2, 23.7, 31.2, 48.5, 14.7, 77.2, 10.8],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Metis",
+                "data": [5.3, 10.2, 6.8, 12.9, 12.8, 15.5, 5.6, 17.8, 6.6],
+                "backgroundColor": "#6495ED"
+              },
+              {
+                "label": "Non-Aboriginal",
+                "data": [92.2, 76.2, 89.8, 76.3, 68.8, 51.5, 85.3, 22.8, 89.2],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Cornwall": {
+      "year": 2016,
+      "id": "cornwall-on",
+      "categories": {
+        "ageDistribution": {
+          "tableData": [
+            {
+              "ageGroup": "0 to 14 years",
+              "total": 9310,
+              "aboriginal": 665,
+              "metis": 125,
+              "nonAboriginal": 8645
+            },
+            {
+              "ageGroup": "15 to 24 years",
+              "total": 6695,
+              "aboriginal": 500,
+              "metis": 125,
+              "nonAboriginal": 6195
+            },
+            {
+              "ageGroup": "25 to 64 years",
+              "total": 29945,
+              "aboriginal": 1025,
+              "metis": 350,
+              "nonAboriginal": 28920
+            },
+            {
+              "ageGroup": "65 years and over",
+              "total": 12180,
+              "aboriginal": 175,
+              "metis": 80,
+              "nonAboriginal": 12005
+            },
+            {
+              "ageGroup": "Average Age",
+              "total": 43,
+              "aboriginal": 31,
+              "metis": 37,
+              "nonAboriginal": 44
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "0 to 14 years",
+              "15 to 24 years",
+              "25 to 64 years",
+              "65 years and over"
+            ],
+            "datasets": [
+              {
+                "label": "Aboriginal",
+                "data": [7.1, 7.5, 3.4, 1.4],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Metis",
+                "data": [1.3, 1.9, 1.2, 0.7],
+                "backgroundColor": "#6495ED"
+              },
+              {
+                "label": "Non-Aboriginal",
+                "data": [92.9, 92.5, 96.6, 98.6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "familyStatus": {
+          "tableData": [
+            {
+              "ageGroup": "Married spouses and common-law partners",
+              "total": 28020,
+              "aboriginal": 825,
+              "metis": 285,
+              "nonAboriginal": 27205
+            },
+            {
+              "ageGroup": "Lone parents (in lone-parent census families)",
+              "total": 3300,
+              "aboriginal": 165,
+              "metis": 60,
+              "nonAboriginal": 3130
+            },
+            {
+              "ageGroup": "Living with two biological or adoptive parents",
+              "total": 8540,
+              "aboriginal": 380,
+              "metis": 90,
+              "nonAboriginal": 8165
+            },
+            {
+              "ageGroup": "Living with one biological or adoptive parent and one step-parent",
+              "total": 1940,
+              "aboriginal": 160,
+              "metis": 40,
+              "nonAboriginal": 1780
+            },
+            {
+              "ageGroup": "Living with one parent in a lone-parent census family",
+              "total": 5100,
+              "aboriginal": 420,
+              "metis": 100,
+              "nonAboriginal": 4675
+            },
+            {
+              "ageGroup": "Living with grandparents without parents present",
+              "total": 200,
+              "aboriginal": 10,
+              "metis": 0,
+              "nonAboriginal": 195
+            },
+            {
+              "ageGroup": "Living with other relatives",
+              "total": 1020,
+              "aboriginal": 30,
+              "metis": 10,
+              "nonAboriginal": 985
+            },
+            {
+              "ageGroup": "Foster children",
+              "total": 80,
+              "aboriginal": 15,
+              "metis": 0,
+              "nonAboriginal": 70
+            },
+            {
+              "ageGroup": "Living with non-relatives only or alone",
+              "total": 9925,
+              "aboriginal": 370,
+              "metis": 90,
+              "nonAboriginal": 9555
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Married/common-law",
+              "Lone parents",
+              "Two bio/adoptive parents",
+              "Bio/adoptive & step-parent",
+              "One parent (lone-parent family)",
+              "With grandparents only",
+              "With other relatives",
+              "Foster children",
+              "With non-relatives/alone"
+            ],
+            "datasets": [
+              {
+                "label": "Aboriginal",
+                "data": [2.9, 5.0, 4.4, 8.2, 8.2, 5.0, 2.9, 18.8, 3.7],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Metis",
+                "data": [1.0, 1.8, 1.1, 2.1, 2.0, 0.0, 1.0, 0.0, 0.9],
+                "backgroundColor": "#6495ED"
+              },
+              {
+                "label": "Non-Aboriginal",
+                "data": [97.1, 94.8, 95.6, 91.8, 91.7, 97.5, 96.6, 87.5, 96.3],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

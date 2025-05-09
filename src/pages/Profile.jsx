@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import CategoryTabs from "@components/common/CategoryTabs";
 import Card from "@components/common/Card";
 import DropDown from "@components/common/DropDown";
-import HorizontalStackedBarChart from "@components/view/ProfileCharts/HorizontalStackedBarChart";
+import DemographicSection from "@components/view/ProfileSections/DemographicSection";
 import {
   faGraduationCap,
   faBriefcase,
@@ -29,28 +29,15 @@ export default function Profile() {
   const content = (
     <div className="px-4 py-6">
       <h2 className="text-lg sm:text-2xl font-bold mb-2 text-center">
-        {categories.find((cat) => cat.id === currentCategory)?.name} - 2016
+        {categories.find((cat) => cat.id === currentCategory)?.name}
       </h2>
       <div className="mt-4 sm:mt-6">
-        {/* display content */}
-        {currentCategory === "demographic" && (
-          <div>
-            <Card>
-              <div className="flex flex-row">
-                <div className=" w-1/2 mx-auto">
-                  <HorizontalStackedBarChart />
-                </div>
-                <div className=" w-1/2 mx-auto">
-                  <HorizontalStackedBarChart />
-                </div>
-              </div>
-            </Card>
-          </div>
-        )}
+        {/* 根据选择的类别显示不同内容 */}
+        {currentCategory === "demographic" && <DemographicSection />}
 
         {currentCategory === "housing" && (
           <div>
-            <Card>housing content</Card>
+            <Card>Housing content</Card>
           </div>
         )}
 

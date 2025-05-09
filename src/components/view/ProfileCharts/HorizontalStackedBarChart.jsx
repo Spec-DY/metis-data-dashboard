@@ -10,6 +10,9 @@ import {
 } from "chart.js";
 import { Bar } from "react-chartjs-2";
 
+ChartJS.defaults.color = "#000000";
+ChartJS.defaults.font.family = "Arial, Helvetica, sans-serif";
+
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -19,7 +22,12 @@ ChartJS.register(
   Legend
 );
 
-function HorizontalStackedBarChart() {
+function HorizontalStackedBarChart({
+  labels = [],
+  datasets = [],
+  title = "Distribution",
+  maxPercentage = 100,
+}) {
   const options = {
     indexAxis: "y", // horizontal bar chart
     elements: {
@@ -30,7 +38,7 @@ function HorizontalStackedBarChart() {
     scales: {
       x: {
         stacked: true,
-        max: 100,
+        max: maxPercentage,
         ticks: {
           callback: (value) => `${value}%`, // format x-axis labels as percentages
         },
@@ -40,6 +48,13 @@ function HorizontalStackedBarChart() {
       },
     },
     plugins: {
+      title: {
+        display: !!title,
+        text: title,
+        font: {
+          size: 16,
+        },
+      },
       tooltip: {
         callbacks: {
           label: (context) => `${context.dataset.label}: ${context.raw}%`,
@@ -49,29 +64,8 @@ function HorizontalStackedBarChart() {
   };
 
   const data = {
-    labels: [
-      "0 to 14 years",
-      "15 to 24 years",
-      "25 to 64 years",
-      "65 years and over",
-    ],
-    datasets: [
-      {
-        label: "Aboriginal",
-        data: [19.8, 16.3, 10.7, 4.8],
-        backgroundColor: "#90EE90",
-      },
-      {
-        label: "Metis",
-        data: [9.2, 8.8, 6.5, 3.3],
-        backgroundColor: "#6495ED",
-      },
-      {
-        label: "Non-Aboriginal",
-        data: [80.2, 83.7, 89.3, 95.2],
-        backgroundColor: "#FF6384",
-      },
-    ],
+    labels: labels,
+    datasets: datasets,
   };
 
   return <Bar options={options} data={data} />;
