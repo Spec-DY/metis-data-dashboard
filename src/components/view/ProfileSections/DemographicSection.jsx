@@ -168,7 +168,7 @@ const DemographicSection = () => {
       {selectedRegion && currentData ? (
         <Card>
           <div className="flex flex-col">
-            <div className="w-full mx-auto p-6">
+            <div className="w-full mx-auto p-8">
               <HorizontalStackedBarChart
                 labels={currentData.chartData.labels}
                 datasets={currentData.chartData.datasets}
