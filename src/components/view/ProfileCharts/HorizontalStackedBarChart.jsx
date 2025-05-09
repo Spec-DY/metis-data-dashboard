@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -10,6 +9,7 @@ import {
 } from "chart.js";
 import { Bar } from "react-chartjs-2";
 
+// global font color
 ChartJS.defaults.color = "#000000";
 ChartJS.defaults.font.family = "Arial, Helvetica, sans-serif";
 

@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import Card from "@components/common/Card";
 import HorizontalStackedBarChart from "@components/view/ProfileCharts/HorizontalStackedBarChart";
 import DataTable from "@components/view/ProfileCharts/DataTable";
-
-// 导入人口统计数据
 import demographicsData from "@data/demographics.json";
 
 const DemographicSection = () => {
@@ -19,14 +17,14 @@ const DemographicSection = () => {
   });
   const [dataType, setDataType] = useState("ageDistribution"); // "ageDistribution" or "familyStatus"
 
-  // 初始化cities状态为ON省份的城市列表
+  // Initialize the cities state with the list of cities in the ON province
 
-  // 然后修改依赖于province的useEffect
+  // Then modify the useEffect that depends on the province
   useEffect(() => {
-    // 非初始渲染时才更新城市列表
+    // Update the city list only on non-initial renders
     if (province && demographicsData[province]) {
       setCities(Object.keys(demographicsData[province]));
-      // 只有当province变化时才重置city和selectedRegion
+      // Only reset city and selectedRegion when province changes
       if (selectedRegion && province !== selectedRegion.province) {
         setCity("");
         setSelectedRegion(null);
@@ -53,7 +51,7 @@ const DemographicSection = () => {
     setDataType(e.target.value);
   };
 
-  // 根据选择的数据类型获取正确的数据
+  // based on the selected region and data type, get the current data
   const getCurrentData = () => {
     if (
       !selectedRegion ||
@@ -68,7 +66,7 @@ const DemographicSection = () => {
 
   const currentData = getCurrentData();
 
-  // 获取地区名称显示
+  // get the display name for the selected region
   const getRegionDisplayName = () => {
     if (!selectedRegion) return "";
 
@@ -123,7 +121,7 @@ const DemographicSection = () => {
               onChange={(e) => {
                 const newCity = e.target.value;
                 setCity(newCity);
-                // 选择城市后自动更新数据
+
                 if (
                   province &&
                   newCity &&

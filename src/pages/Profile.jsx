@@ -32,12 +32,13 @@ export default function Profile() {
         {categories.find((cat) => cat.id === currentCategory)?.name}
       </h2>
       <div className="mt-4 sm:mt-6">
-        {/* 根据选择的类别显示不同内容 */}
+        {/* Display different content based on the selected category */}
+
         {currentCategory === "demographic" && <DemographicSection />}
 
         {currentCategory === "housing" && (
           <div>
-            <Card>Housing content</Card>
+            <Card>Housing content goes here.</Card>
           </div>
         )}
 
