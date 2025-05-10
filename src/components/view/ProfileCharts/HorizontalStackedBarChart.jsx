@@ -1,3 +1,4 @@
+// this component is used in Demographics section in profile page
 import {
   Chart as ChartJS,
   CategoryScale,

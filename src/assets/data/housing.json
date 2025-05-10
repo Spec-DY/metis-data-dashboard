@@ -1,0 +1,109 @@
+{
+  "ON": {
+    "Cornwall": {
+      "year": 2016,
+      "id": "cornwall-on",
+      "categories": {
+        "housingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 2370,
+              "regularMaintenance": 1205,
+              "minorRepairs": 840,
+              "majorRepairs": 315
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 685,
+              "regularMaintenance": 355,
+              "minorRepairs": 235,
+              "majorRepairs": 95
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 55765,
+              "regularMaintenance": 33650,
+              "minorRepairs": 17325,
+              "majorRepairs": 4790
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance",
+                "data": [51, 52, 60],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair",
+                "data": [35, 34, 31],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair",
+                "data": [13, 14, 9],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 2365,
+              "suitable": 2150,
+              "notSuitable": 210,
+              "oneBedroomShortfall": 185,
+              "twoBedroomShortfall": 20,
+              "threeOrMoreBedroomShortfall": 10
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 685,
+              "suitable": 610,
+              "notSuitable": 75,
+              "oneBedroomShortfall": 60,
+              "twoBedroomShortfall": 10,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 55765,
+              "suitable": 52645,
+              "notSuitable": 3115,
+              "oneBedroomShortfall": 2780,
+              "twoBedroomShortfall": 275,
+              "threeOrMoreBedroomShortfall": 65
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [91, 89, 94],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [9, 11, 6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

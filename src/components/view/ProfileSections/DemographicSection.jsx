@@ -200,7 +200,7 @@ const DemographicSection = () => {
       ) : (
         <Card>
           <div className="p-8 text-center text-gray-500">
-            Please select a province and city, then click Submit to view data
+            Please select a province and city to view the data.
           </div>
         </Card>
       )}

@@ -10,6 +10,7 @@ import {
   faUsers,
   faHouse,
 } from "@fortawesome/free-solid-svg-icons";
+import HousingSection from "../components/view/ProfileSections/HousingSection";
 
 export default function Profile() {
   const categories = [
@@ -36,11 +37,7 @@ export default function Profile() {
 
         {currentCategory === "demographic" && <DemographicSection />}
 
-        {currentCategory === "housing" && (
-          <div>
-            <Card>Housing content goes here.</Card>
-          </div>
-        )}
+        {currentCategory === "housing" && <HousingSection />}
 
         {currentCategory === "education" && (
           <div>
