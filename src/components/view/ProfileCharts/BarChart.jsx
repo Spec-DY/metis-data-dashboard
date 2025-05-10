@@ -24,19 +24,8 @@ ChartJS.register(
 );
 
 const BarChart = ({
-  labels = ["Aboriginal identity", "Métis", "Non-Aboriginal identity"],
-  datasets = [
-    {
-      label: "Suitable",
-      data: [90.91, 89.05, 94.41],
-      backgroundColor: "#90EE90",
-    },
-    {
-      label: "Not Suitable",
-      data: [8.88, 10.95, 5.59],
-      backgroundColor: "#FF6384",
-    },
-  ],
+  labels = [],
+  datasets = [],
   maxPercentage = 100,
   title = "",
 }) => {
@@ -71,8 +60,7 @@ const BarChart = ({
           weight: "bold",
         },
         callbacks: {
-          label: (context) =>
-            `${context.dataset.label}: ${context.raw.toFixed(2)}%`,
+          label: (context) => `${context.dataset.label}: ${context.raw}%`,
         },
       },
     },

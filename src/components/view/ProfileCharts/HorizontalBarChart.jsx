@@ -24,24 +24,8 @@ ChartJS.register(
 );
 
 const HorizontalBarChart = ({
-  labels = ["Aboriginal identity", "Métis", "Non-Aboriginal identity"],
-  datasets = [
-    {
-      label: "Regular Maintenance",
-      data: [51, 52, 60],
-      backgroundColor: "#90EE90",
-    },
-    {
-      label: "Minor Repair",
-      data: [35, 34, 31],
-      backgroundColor: "#FFD700",
-    },
-    {
-      label: "Major Repair",
-      data: [13, 14, 9],
-      backgroundColor: "#FF6384",
-    },
-  ],
+  labels = [],
+  datasets = [],
   maxPercentage = 60,
   title = "",
 }) => {

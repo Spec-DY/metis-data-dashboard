@@ -1,30 +1,135 @@
 {
   "ON": {
+    "All": {
+      "year": 2016,
+      "id": "cornwall-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 374395,
+              "regularMaintenance": 183275,
+              "minorRepairs": 127900,
+              "majorRepairs": 63220
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 120585,
+              "regularMaintenance": 63725,
+              "minorRepairs": 42680,
+              "majorRepairs": 14180
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 12867765,
+              "regularMaintenance": 8783490,
+              "minorRepairs": 3343210,
+              "majorRepairs": 741065
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance",
+                "data": [49, 53, 68],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair",
+                "data": [34, 35, 26],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair",
+                "data": [17, 12, 6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 374395,
+              "suitable": 326470,
+              "notSuitable": 47925,
+              "oneBedroomShortfall": 35220,
+              "twoBedroomShortfall": 9000,
+              "threeOrMoreBedroomShortfall": 3700
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 120585,
+              "suitable": 111630,
+              "notSuitable": 8955,
+              "oneBedroomShortfall": 7340,
+              "twoBedroomShortfall": 1390,
+              "threeOrMoreBedroomShortfall": 220
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 12867765,
+              "suitable": 11517350,
+              "notSuitable": 1350415,
+              "oneBedroomShortfall": 994805,
+              "twoBedroomShortfall": 257785,
+              "threeOrMoreBedroomShortfall": 97825
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [87, 93, 90],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [13, 8, 10],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
     "Cornwall": {
       "year": 2016,
       "id": "cornwall-on",
       "categories": {
-        "housingCondition": {
+        "dwellingCondition": {
           "tableData": [
             {
               "identityGroup": "Aboriginal identity",
-              "total": 2370,
+              "total": 2365,
               "regularMaintenance": 1205,
               "minorRepairs": 840,
-              "majorRepairs": 315
+              "majorRepairs": 320
             },
             {
               "identityGroup": "Métis",
               "total": 685,
               "regularMaintenance": 355,
-              "minorRepairs": 235,
+              "minorRepairs": 240,
               "majorRepairs": 95
             },
             {
               "identityGroup": "Non-Aboriginal identity",
               "total": 55765,
-              "regularMaintenance": 33650,
-              "minorRepairs": 17325,
+              "regularMaintenance": 33655,
+              "minorRepairs": 17320,
               "majorRepairs": 4790
             }
           ],
@@ -98,6 +203,113 @@
               {
                 "label": "Not suitable",
                 "data": [9, 11, 6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "MB": {
+    "All": {
+      "year": 2016,
+      "id": "cornwall-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 223310,
+              "regularMaintenance": 94600,
+              "minorRepairs": 73145,
+              "majorRepairs": 55560
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 89360,
+              "regularMaintenance": 46860,
+              "minorRepairs": 31485,
+              "majorRepairs": 11015
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 1017390,
+              "regularMaintenance": 664545,
+              "minorRepairs": 284410,
+              "majorRepairs": 68435
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance",
+                "data": [42, 52, 65],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair",
+                "data": [33, 35, 28],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair",
+                "data": [25, 12, 7],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 223310,
+              "suitable": 162670,
+              "notSuitable": 60640,
+              "oneBedroomShortfall": 35935,
+              "twoBedroomShortfall": 12930,
+              "threeOrMoreBedroomShortfall": 11775
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 89355,
+              "suitable": 79790,
+              "notSuitable": 9565,
+              "oneBedroomShortfall": 7705,
+              "twoBedroomShortfall": 1365,
+              "threeOrMoreBedroomShortfall": 495
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 1017390,
+              "suitable": 918285,
+              "notSuitable": 99110,
+              "oneBedroomShortfall": 73040,
+              "twoBedroomShortfall": 19770,
+              "threeOrMoreBedroomShortfall": 6290
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [73, 89, 90],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [27, 11, 10],
                 "backgroundColor": "#FF6384"
               }
             ]
