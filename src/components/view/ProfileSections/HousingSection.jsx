@@ -185,9 +185,9 @@ const HousingSection = () => {
                     ]}
                     columnLabels={{
                       total: "Total",
-                      regularMaintenance: "Regular Maintenance",
-                      minorRepairs: "Minor Repairs",
-                      majorRepairs: "Major Repairs",
+                      regularMaintenance: "Regular Maintenance Needed",
+                      minorRepairs: "Minor Repairs Needed",
+                      majorRepairs: "Major Repairs Needed",
                     }}
                     labelHeader="Identity Group"
                   />

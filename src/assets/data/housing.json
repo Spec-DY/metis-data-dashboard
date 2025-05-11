@@ -36,17 +36,17 @@
             ],
             "datasets": [
               {
-                "label": "Regular Maintenance",
+                "label": "Regular Maintenance Needed",
                 "data": [49, 53, 68],
                 "backgroundColor": "#90EE90"
               },
               {
-                "label": "Minor Repair",
+                "label": "Minor Repair Needed",
                 "data": [34, 35, 26],
                 "backgroundColor": "#FFD700"
               },
               {
-                "label": "Major Repair",
+                "label": "Major Repair Needed",
                 "data": [17, 12, 6],
                 "backgroundColor": "#FF6384"
               }
@@ -141,17 +141,17 @@
             ],
             "datasets": [
               {
-                "label": "Regular Maintenance",
+                "label": "Regular Maintenance Needed",
                 "data": [51, 52, 60],
                 "backgroundColor": "#90EE90"
               },
               {
-                "label": "Minor Repair",
+                "label": "Minor Repair Needed",
                 "data": [35, 34, 31],
                 "backgroundColor": "#FFD700"
               },
               {
-                "label": "Major Repair",
+                "label": "Major Repair Needed",
                 "data": [13, 14, 9],
                 "backgroundColor": "#FF6384"
               }
@@ -248,17 +248,17 @@
             ],
             "datasets": [
               {
-                "label": "Regular Maintenance",
+                "label": "Regular Maintenance Needed",
                 "data": [42, 52, 65],
                 "backgroundColor": "#90EE90"
               },
               {
-                "label": "Minor Repair",
+                "label": "Minor Repair Needed",
                 "data": [33, 35, 28],
                 "backgroundColor": "#FFD700"
               },
               {
-                "label": "Major Repair",
+                "label": "Major Repair Needed",
                 "data": [25, 12, 7],
                 "backgroundColor": "#FF6384"
               }
