@@ -6,14 +6,14 @@ import demographicsData from "@data/demographics.json";
 
 const DemographicSection = () => {
   const [province, setProvince] = useState("ON");
-  const [city, setCity] = useState("All");
+  const [city, setCity] = useState("Cornwall");
   const [cities, setCities] = useState(
     demographicsData["ON"] ? Object.keys(demographicsData["ON"]) : []
   );
   const [selectedRegion, setSelectedRegion] = useState({
     province: "ON",
-    city: "All",
-    data: demographicsData["ON"]["All"],
+    city: "Cornwall",
+    data: demographicsData["ON"]["Cornwall"],
   });
   const [dataType, setDataType] = useState("ageDistribution"); // "ageDistribution" or "familyStatus"
 
