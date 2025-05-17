@@ -80,7 +80,11 @@ const HorizontalBarChart = ({
     datasets,
   };
 
-  return <Bar options={options} data={data} />;
+  return (
+    <div style={{ height: "500px", width: "100%" }}>
+      <Bar options={options} data={data} />
+    </div>
+  );
 };
 
 export default HorizontalBarChart;
