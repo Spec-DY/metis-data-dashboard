@@ -209,6 +209,5046 @@
           }
         }
       }
+    },
+    "Hawkesbury": {
+      "year": 2016,
+      "id": "hawkesbury-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 240,
+              "regularMaintenance": 130,
+              "minorRepairs": 45,
+              "majorRepairs": 60
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 120,
+              "regularMaintenance": 65,
+              "minorRepairs": 15,
+              "majorRepairs": 40
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 11295,
+              "regularMaintenance": 7410,
+              "minorRepairs": 2930,
+              "majorRepairs": 955
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [54, 54, 66],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [19, 13, 26],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [25, 33, 8],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 235,
+              "suitable": 210,
+              "notSuitable": 30,
+              "oneBedroomShortfall": 30,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 120,
+              "suitable": 95,
+              "notSuitable": 25,
+              "oneBedroomShortfall": 30,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 11295,
+              "suitable": 10800,
+              "notSuitable": 495,
+              "oneBedroomShortfall": 415,
+              "twoBedroomShortfall": 80,
+              "threeOrMoreBedroomShortfall": 0
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [89, 79, 96],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [13, 21, 4],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Hawkesbury (Quebec part)": {
+      "year": 2016,
+      "id": "hawkesbury-qc",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 25,
+              "regularMaintenance": 20,
+              "minorRepairs": 0,
+              "majorRepairs": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 0,
+              "regularMaintenance": 0,
+              "minorRepairs": 0,
+              "majorRepairs": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 1685,
+              "regularMaintenance": 1080,
+              "minorRepairs": 445,
+              "majorRepairs": 165
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [80, 0, 64],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [0, 0, 26],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [0, 0, 10],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 20,
+              "suitable": 25,
+              "notSuitable": 0,
+              "oneBedroomShortfall": 0,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 0,
+              "suitable": 0,
+              "notSuitable": 0,
+              "oneBedroomShortfall": 0,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 1690,
+              "suitable": 1540,
+              "notSuitable": 150,
+              "oneBedroomShortfall": 90,
+              "twoBedroomShortfall": 55,
+              "threeOrMoreBedroomShortfall": 0
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [125, 0, 91],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [0, 0, 9],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Hawkesbury (Ontario part)": {
+      "year": 2016,
+      "id": "hawkesbury-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 210,
+              "regularMaintenance": 110,
+              "minorRepairs": 45,
+              "majorRepairs": 60
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 120,
+              "regularMaintenance": 70,
+              "minorRepairs": 15,
+              "majorRepairs": 40
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 9605,
+              "regularMaintenance": 6330,
+              "minorRepairs": 2485,
+              "majorRepairs": 790
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [52, 58, 66],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [21, 13, 26],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [29, 33, 8],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 210,
+              "suitable": 185,
+              "notSuitable": 25,
+              "oneBedroomShortfall": 30,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 120,
+              "suitable": 90,
+              "notSuitable": 25,
+              "oneBedroomShortfall": 30,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 9610,
+              "suitable": 9260,
+              "notSuitable": 345,
+              "oneBedroomShortfall": 325,
+              "twoBedroomShortfall": 25,
+              "threeOrMoreBedroomShortfall": 0
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [88, 75, 96],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [12, 21, 4],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Gatineau": {
+      "year": 2016,
+      "id": "gatineau-qc",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 38120,
+              "regularMaintenance": 21460,
+              "minorRepairs": 12820,
+              "majorRepairs": 3835
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 17150,
+              "regularMaintenance": 9450,
+              "minorRepairs": 6155,
+              "majorRepairs": 1545
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 1262615,
+              "regularMaintenance": 840340,
+              "minorRepairs": 354915,
+              "majorRepairs": 67360
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [56, 55, 67],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [34, 36, 28],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [10, 9, 5],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 38115,
+              "suitable": 35350,
+              "notSuitable": 2770,
+              "oneBedroomShortfall": 2415,
+              "twoBedroomShortfall": 310,
+              "threeOrMoreBedroomShortfall": 45
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 17155,
+              "suitable": 15990,
+              "notSuitable": 1165,
+              "oneBedroomShortfall": 995,
+              "twoBedroomShortfall": 160,
+              "threeOrMoreBedroomShortfall": 10
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 1262620,
+              "suitable": 1167870,
+              "notSuitable": 94745,
+              "oneBedroomShortfall": 72650,
+              "twoBedroomShortfall": 16100,
+              "threeOrMoreBedroomShortfall": 5990
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [93, 93, 93],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [7, 7, 8],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Gatineau (Quebec part)": {
+      "year": 2016,
+      "id": "gatineau-qc-part",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 13085,
+              "regularMaintenance": 7345,
+              "minorRepairs": 4535,
+              "majorRepairs": 1210
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 6700,
+              "regularMaintenance": 3650,
+              "minorRepairs": 2480,
+              "majorRepairs": 565
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 314310,
+              "regularMaintenance": 203720,
+              "minorRepairs": 91795,
+              "majorRepairs": 18790
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [56, 54, 65],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [35, 37, 29],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [9, 8, 6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 13080,
+              "suitable": 12190,
+              "notSuitable": 890,
+              "oneBedroomShortfall": 745,
+              "twoBedroomShortfall": 130,
+              "threeOrMoreBedroomShortfall": 15
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 6700,
+              "suitable": 6270,
+              "notSuitable": 430,
+              "oneBedroomShortfall": 340,
+              "twoBedroomShortfall": 95,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 314305,
+              "suitable": 297385,
+              "notSuitable": 16920,
+              "oneBedroomShortfall": 14380,
+              "twoBedroomShortfall": 1930,
+              "threeOrMoreBedroomShortfall": 605
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [93, 94, 95],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [7, 6, 5],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Gatineau (Ontario part)": {
+      "year": 2016,
+      "id": "gatineau-on-part",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 25035,
+              "regularMaintenance": 14120,
+              "minorRepairs": 8290,
+              "majorRepairs": 2630
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 10450,
+              "regularMaintenance": 5800,
+              "minorRepairs": 3675,
+              "majorRepairs": 980
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 948310,
+              "regularMaintenance": 636620,
+              "minorRepairs": 263115,
+              "majorRepairs": 48575
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [56, 56, 67],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [33, 35, 28],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [11, 9, 5],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 25035,
+              "suitable": 23155,
+              "notSuitable": 1875,
+              "oneBedroomShortfall": 1670,
+              "twoBedroomShortfall": 180,
+              "threeOrMoreBedroomShortfall": 30
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 10455,
+              "suitable": 9720,
+              "notSuitable": 735,
+              "oneBedroomShortfall": 655,
+              "twoBedroomShortfall": 70,
+              "threeOrMoreBedroomShortfall": 10
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 948310,
+              "suitable": 870485,
+              "notSuitable": 77825,
+              "oneBedroomShortfall": 58270,
+              "twoBedroomShortfall": 14170,
+              "threeOrMoreBedroomShortfall": 5385
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [92, 93, 92],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [7, 7, 8],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Arnprior": {
+      "year": 2016,
+      "id": "arnprior-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 800,
+              "regularMaintenance": 415,
+              "minorRepairs": 260,
+              "majorRepairs": 125
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 360,
+              "regularMaintenance": 145,
+              "minorRepairs": 145,
+              "majorRepairs": 75
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 14885,
+              "regularMaintenance": 9145,
+              "minorRepairs": 4815,
+              "majorRepairs": 930
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [52, 40, 61],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [33, 40, 32],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [16, 21, 6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 800,
+              "suitable": 780,
+              "notSuitable": 25,
+              "oneBedroomShortfall": 25,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 360,
+              "suitable": 335,
+              "notSuitable": 25,
+              "oneBedroomShortfall": 20,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 14880,
+              "suitable": 14330,
+              "notSuitable": 550,
+              "oneBedroomShortfall": 475,
+              "twoBedroomShortfall": 70,
+              "threeOrMoreBedroomShortfall": 0
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [98, 93, 96],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [3, 7, 4],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Carleton Place": {
+      "year": 2016,
+      "id": "carleton-place-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 1245,
+              "regularMaintenance": 705,
+              "minorRepairs": 425,
+              "majorRepairs": 110
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 515,
+              "regularMaintenance": 265,
+              "minorRepairs": 190,
+              "majorRepairs": 65
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 29565,
+              "regularMaintenance": 18015,
+              "minorRepairs": 9575,
+              "majorRepairs": 1970
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [57, 51, 61],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [34, 37, 32],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [9, 13, 7],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 1245,
+              "suitable": 1140,
+              "notSuitable": 105,
+              "oneBedroomShortfall": 50,
+              "twoBedroomShortfall": 50,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 515,
+              "suitable": 485,
+              "notSuitable": 25,
+              "oneBedroomShortfall": 25,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 29560,
+              "suitable": 28615,
+              "notSuitable": 950,
+              "oneBedroomShortfall": 700,
+              "twoBedroomShortfall": 185,
+              "threeOrMoreBedroomShortfall": 60
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [92, 94, 97],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [8, 5, 3],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Brockville": {
+      "year": 2016,
+      "id": "brockville-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 1070,
+              "regularMaintenance": 435,
+              "minorRepairs": 480,
+              "majorRepairs": 150
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 380,
+              "regularMaintenance": 110,
+              "minorRepairs": 220,
+              "majorRepairs": 45
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 36665,
+              "regularMaintenance": 22030,
+              "minorRepairs": 11640,
+              "majorRepairs": 2990
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [41, 29, 60],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [45, 58, 32],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [14, 12, 8],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 1070,
+              "suitable": 960,
+              "notSuitable": 105,
+              "oneBedroomShortfall": 105,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 380,
+              "suitable": 310,
+              "notSuitable": 70,
+              "oneBedroomShortfall": 65,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 36670,
+              "suitable": 34830,
+              "notSuitable": 1835,
+              "oneBedroomShortfall": 1590,
+              "twoBedroomShortfall": 195,
+              "threeOrMoreBedroomShortfall": 50
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [90, 82, 95],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [10, 18, 5],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Pembroke": {
+      "year": 2016,
+      "id": "pembroke-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 2480,
+              "regularMaintenance": 1230,
+              "minorRepairs": 910,
+              "majorRepairs": 340
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 840,
+              "regularMaintenance": 465,
+              "minorRepairs": 270,
+              "majorRepairs": 95
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 19950,
+              "regularMaintenance": 11805,
+              "minorRepairs": 6520,
+              "majorRepairs": 1630
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [50, 55, 59],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [37, 32, 33],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [14, 11, 8],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 2480,
+              "suitable": 2270,
+              "notSuitable": 210,
+              "oneBedroomShortfall": 155,
+              "twoBedroomShortfall": 25,
+              "threeOrMoreBedroomShortfall": 25
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 835,
+              "suitable": 785,
+              "notSuitable": 50,
+              "oneBedroomShortfall": 40,
+              "twoBedroomShortfall": 10,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 19950,
+              "suitable": 19140,
+              "notSuitable": 810,
+              "oneBedroomShortfall": 735,
+              "twoBedroomShortfall": 40,
+              "threeOrMoreBedroomShortfall": 40
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [92, 94, 96],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [8, 6, 4],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Petawawa": {
+      "year": 2016,
+      "id": "petawawa-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 1370,
+              "regularMaintenance": 770,
+              "minorRepairs": 430,
+              "majorRepairs": 170
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 455,
+              "regularMaintenance": 235,
+              "minorRepairs": 165,
+              "majorRepairs": 60
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 14950,
+              "regularMaintenance": 9460,
+              "minorRepairs": 4375,
+              "majorRepairs": 1115
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [56, 52, 63],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [31, 36, 29],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [12, 13, 7],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 1375,
+              "suitable": 1295,
+              "notSuitable": 75,
+              "oneBedroomShortfall": 35,
+              "twoBedroomShortfall": 35,
+              "threeOrMoreBedroomShortfall": 10
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 455,
+              "suitable": 450,
+              "notSuitable": 10,
+              "oneBedroomShortfall": 0,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 14950,
+              "suitable": 14445,
+              "notSuitable": 510,
+              "oneBedroomShortfall": 445,
+              "twoBedroomShortfall": 60,
+              "threeOrMoreBedroomShortfall": 10
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [94, 99, 97],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [5, 2, 3],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Kingston": {
+      "year": 2016,
+      "id": "kingston-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 5580,
+              "regularMaintenance": 2855,
+              "minorRepairs": 2050,
+              "majorRepairs": 680
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 1845,
+              "regularMaintenance": 835,
+              "minorRepairs": 760,
+              "majorRepairs": 250
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 150880,
+              "regularMaintenance": 97345,
+              "minorRepairs": 44505,
+              "majorRepairs": 9035
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [51, 45, 65],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [37, 41, 29],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [12, 14, 6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 5580,
+              "suitable": 5055,
+              "notSuitable": 525,
+              "oneBedroomShortfall": 495,
+              "twoBedroomShortfall": 30,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 1845,
+              "suitable": 1645,
+              "notSuitable": 195,
+              "oneBedroomShortfall": 175,
+              "twoBedroomShortfall": 20,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 150880,
+              "suitable": 143925,
+              "notSuitable": 6955,
+              "oneBedroomShortfall": 6175,
+              "twoBedroomShortfall": 620,
+              "threeOrMoreBedroomShortfall": 165
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [91, 89, 95],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [9, 11, 5],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Belleville": {
+      "year": 2016,
+      "id": "belleville-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 5245,
+              "regularMaintenance": 3000,
+              "minorRepairs": 1735,
+              "majorRepairs": 505
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 1845,
+              "regularMaintenance": 1075,
+              "minorRepairs": 595,
+              "majorRepairs": 175
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 96040,
+              "regularMaintenance": 61150,
+              "minorRepairs": 28085,
+              "majorRepairs": 6800
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [57, 58, 64],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [33, 32, 29],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [10, 9, 7],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 5245,
+              "suitable": 4770,
+              "notSuitable": 475,
+              "oneBedroomShortfall": 385,
+              "twoBedroomShortfall": 90,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 1850,
+              "suitable": 1725,
+              "notSuitable": 125,
+              "oneBedroomShortfall": 125,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 96040,
+              "suitable": 91210,
+              "notSuitable": 4825,
+              "oneBedroomShortfall": 4025,
+              "twoBedroomShortfall": 680,
+              "threeOrMoreBedroomShortfall": 120
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [91, 93, 95],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [9, 7, 5],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Cobourg": {
+      "year": 2016,
+      "id": "cobourg-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 440,
+              "regularMaintenance": 240,
+              "minorRepairs": 145,
+              "majorRepairs": 55
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 160,
+              "regularMaintenance": 115,
+              "minorRepairs": 50,
+              "majorRepairs": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 18280,
+              "regularMaintenance": 12360,
+              "minorRepairs": 4675,
+              "majorRepairs": 1250
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [55, 72, 68],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [33, 31, 26],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [13, 0, 7],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 440,
+              "suitable": 390,
+              "notSuitable": 45,
+              "oneBedroomShortfall": 35,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 165,
+              "suitable": 155,
+              "notSuitable": 10,
+              "oneBedroomShortfall": 0,
+              "twoBedroomShortfall": 10,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 18280,
+              "suitable": 17505,
+              "notSuitable": 775,
+              "oneBedroomShortfall": 645,
+              "twoBedroomShortfall": 115,
+              "threeOrMoreBedroomShortfall": 15
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [89, 94, 96],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [10, 6, 4],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Port Hope": {
+      "year": 2016,
+      "id": "port-hope-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 285,
+              "regularMaintenance": 130,
+              "minorRepairs": 125,
+              "majorRepairs": 30
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 100,
+              "regularMaintenance": 50,
+              "minorRepairs": 45,
+              "majorRepairs": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 16000,
+              "regularMaintenance": 9965,
+              "minorRepairs": 4805,
+              "majorRepairs": 1225
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [46, 50, 62],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [44, 45, 30],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [11, 0, 8],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 285,
+              "suitable": 275,
+              "notSuitable": 10,
+              "oneBedroomShortfall": 0,
+              "twoBedroomShortfall": 10,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 100,
+              "suitable": 90,
+              "notSuitable": 10,
+              "oneBedroomShortfall": 10,
+              "twoBedroomShortfall": 10,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 16000,
+              "suitable": 14995,
+              "notSuitable": 1005,
+              "oneBedroomShortfall": 845,
+              "twoBedroomShortfall": 165,
+              "threeOrMoreBedroomShortfall": 0
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [96, 90, 94],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [4, 10, 6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Peterborough": {
+      "year": 2016,
+      "id": "peterborough-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 5440,
+              "regularMaintenance": 2565,
+              "minorRepairs": 1950,
+              "majorRepairs": 925
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 1595,
+              "regularMaintenance": 810,
+              "minorRepairs": 595,
+              "majorRepairs": 195
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 113335,
+              "regularMaintenance": 72020,
+              "minorRepairs": 33930,
+              "majorRepairs": 7390
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [47, 51, 64],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [36, 37, 30],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [17, 12, 7],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 5440,
+              "suitable": 5005,
+              "notSuitable": 440,
+              "oneBedroomShortfall": 405,
+              "twoBedroomShortfall": 30,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 1595,
+              "suitable": 1525,
+              "notSuitable": 75,
+              "oneBedroomShortfall": 60,
+              "twoBedroomShortfall": 10,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 113335,
+              "suitable": 108340,
+              "notSuitable": 4995,
+              "oneBedroomShortfall": 3935,
+              "twoBedroomShortfall": 815,
+              "threeOrMoreBedroomShortfall": 245
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [92, 96, 96],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [8, 5, 4],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Kawartha Lakes": {
+      "year": 2016,
+      "id": "kawartha-lakes-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 2000,
+              "regularMaintenance": 1000,
+              "minorRepairs": 775,
+              "majorRepairs": 225
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 740,
+              "regularMaintenance": 365,
+              "minorRepairs": 275,
+              "majorRepairs": 100
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 71375,
+              "regularMaintenance": 45420,
+              "minorRepairs": 21115,
+              "majorRepairs": 4845
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [50, 49, 64],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [39, 37, 30],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [11, 14, 7],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 1995,
+              "suitable": 1875,
+              "notSuitable": 120,
+              "oneBedroomShortfall": 115,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 740,
+              "suitable": 690,
+              "notSuitable": 50,
+              "oneBedroomShortfall": 45,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 71380,
+              "suitable": 67965,
+              "notSuitable": 3410,
+              "oneBedroomShortfall": 2665,
+              "twoBedroomShortfall": 580,
+              "threeOrMoreBedroomShortfall": 165
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [94, 93, 95],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [6, 7, 5],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Centre Wellington": {
+      "year": 2016,
+      "id": "centre-wellington-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 495,
+              "regularMaintenance": 300,
+              "minorRepairs": 160,
+              "majorRepairs": 35
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 180,
+              "regularMaintenance": 110,
+              "minorRepairs": 60,
+              "majorRepairs": 10
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 27135,
+              "regularMaintenance": 18385,
+              "minorRepairs": 7375,
+              "majorRepairs": 1380
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [61, 61, 68],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [32, 33, 27],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [7, 6, 5],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 495,
+              "suitable": 460,
+              "notSuitable": 35,
+              "oneBedroomShortfall": 35,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 180,
+              "suitable": 170,
+              "notSuitable": 10,
+              "oneBedroomShortfall": 10,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 27135,
+              "suitable": 25955,
+              "notSuitable": 1185,
+              "oneBedroomShortfall": 940,
+              "twoBedroomShortfall": 195,
+              "threeOrMoreBedroomShortfall": 50
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [93, 94, 96],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [7, 6, 4],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Oshawa": {
+      "year": 2016,
+      "id": "oshawa-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 8965,
+              "regularMaintenance": 5020,
+              "minorRepairs": 2855,
+              "majorRepairs": 1090
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 3340,
+              "regularMaintenance": 1840,
+              "minorRepairs": 1165,
+              "majorRepairs": 335
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 366640,
+              "regularMaintenance": 250775,
+              "minorRepairs": 97650,
+              "majorRepairs": 18210
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [56, 55, 68],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [32, 35, 27],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [12, 10, 5],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 8965,
+              "suitable": 8340,
+              "notSuitable": 625,
+              "oneBedroomShortfall": 505,
+              "twoBedroomShortfall": 85,
+              "threeOrMoreBedroomShortfall": 40
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 3340,
+              "suitable": 3125,
+              "notSuitable": 220,
+              "oneBedroomShortfall": 180,
+              "twoBedroomShortfall": 25,
+              "threeOrMoreBedroomShortfall": 10
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 366635,
+              "suitable": 342810,
+              "notSuitable": 23825,
+              "oneBedroomShortfall": 19050,
+              "twoBedroomShortfall": 3680,
+              "threeOrMoreBedroomShortfall": 1090
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [93, 94, 94],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [7, 7, 7],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Ingersoll": {
+      "year": 2016,
+      "id": "ingersoll-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 325,
+              "regularMaintenance": 145,
+              "minorRepairs": 105,
+              "majorRepairs": 80
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 90,
+              "regularMaintenance": 35,
+              "minorRepairs": 40,
+              "majorRepairs": 15
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 12255,
+              "regularMaintenance": 7700,
+              "minorRepairs": 3620,
+              "majorRepairs": 940
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [45, 39, 63],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [32, 44, 30],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [25, 17, 8],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 320,
+              "suitable": 310,
+              "notSuitable": 15,
+              "oneBedroomShortfall": 15,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 90,
+              "suitable": 90,
+              "notSuitable": 0,
+              "oneBedroomShortfall": 0,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 12260,
+              "suitable": 11820,
+              "notSuitable": 435,
+              "oneBedroomShortfall": 365,
+              "twoBedroomShortfall": 70,
+              "threeOrMoreBedroomShortfall": 0
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [97, 100, 96],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [5, 0, 4],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Toronto": {
+      "year": 2016,
+      "id": "toronto-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 46315,
+              "regularMaintenance": 25385,
+              "minorRepairs": 15540,
+              "majorRepairs": 5385
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 15245,
+              "regularMaintenance": 8700,
+              "minorRepairs": 4940,
+              "majorRepairs": 1605
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 5816535,
+              "regularMaintenance": 4128190,
+              "minorRepairs": 1386410,
+              "majorRepairs": 301945
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [55, 57, 71],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [34, 32, 24],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [12, 11, 5],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 46315,
+              "suitable": 39060,
+              "notSuitable": 7255,
+              "oneBedroomShortfall": 5680,
+              "twoBedroomShortfall": 1260,
+              "threeOrMoreBedroomShortfall": 315
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 15245,
+              "suitable": 13320,
+              "notSuitable": 1920,
+              "oneBedroomShortfall": 1510,
+              "twoBedroomShortfall": 340,
+              "threeOrMoreBedroomShortfall": 75
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 5816535,
+              "suitable": 4910925,
+              "notSuitable": 905610,
+              "oneBedroomShortfall": 646545,
+              "twoBedroomShortfall": 186985,
+              "threeOrMoreBedroomShortfall": 72080
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [84, 87, 84],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [16, 13, 16],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Hamilton": {
+      "year": 2016,
+      "id": "hamilton-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 14440,
+              "regularMaintenance": 7705,
+              "minorRepairs": 4740,
+              "majorRepairs": 2000
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 3960,
+              "regularMaintenance": 2085,
+              "minorRepairs": 1370,
+              "majorRepairs": 505
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 720440,
+              "regularMaintenance": 491200,
+              "minorRepairs": 186415,
+              "majorRepairs": 42830
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [53, 53, 68],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [33, 35, 26],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [14, 13, 6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 14440,
+              "suitable": 12500,
+              "notSuitable": 1940,
+              "oneBedroomShortfall": 1610,
+              "twoBedroomShortfall": 305,
+              "threeOrMoreBedroomShortfall": 25
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 3960,
+              "suitable": 3515,
+              "notSuitable": 445,
+              "oneBedroomShortfall": 375,
+              "twoBedroomShortfall": 70,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 720440,
+              "suitable": 662610,
+              "notSuitable": 57830,
+              "oneBedroomShortfall": 45355,
+              "twoBedroomShortfall": 9040,
+              "threeOrMoreBedroomShortfall": 3435
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [87, 89, 92],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [13, 11, 8],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "St. Catharines - Niagara": {
+      "year": 2016,
+      "id": "st-catharines-niagara-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 11645,
+              "regularMaintenance": 6095,
+              "minorRepairs": 3905,
+              "majorRepairs": 1640
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 4165,
+              "regularMaintenance": 2220,
+              "minorRepairs": 1395,
+              "majorRepairs": 550
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 385225,
+              "regularMaintenance": 260970,
+              "minorRepairs": 99640,
+              "majorRepairs": 24615
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [52, 53, 68],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [34, 33, 26],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [14, 13, 6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 11645,
+              "suitable": 10480,
+              "notSuitable": 1165,
+              "oneBedroomShortfall": 1000,
+              "twoBedroomShortfall": 120,
+              "threeOrMoreBedroomShortfall": 40
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 4165,
+              "suitable": 3775,
+              "notSuitable": 395,
+              "oneBedroomShortfall": 335,
+              "twoBedroomShortfall": 55,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 385220,
+              "suitable": 363085,
+              "notSuitable": 22140,
+              "oneBedroomShortfall": 17560,
+              "twoBedroomShortfall": 2915,
+              "threeOrMoreBedroomShortfall": 1665
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [90, 91, 94],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [10, 9, 6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Kitchener - Cambridge - Waterloo": {
+      "year": 2016,
+      "id": "kitchener-cambridge-waterloo-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 8885,
+              "regularMaintenance": 5120,
+              "minorRepairs": 2965,
+              "majorRepairs": 790
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 2810,
+              "regularMaintenance": 1615,
+              "minorRepairs": 950,
+              "majorRepairs": 240
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 507200,
+              "regularMaintenance": 353420,
+              "minorRepairs": 128930,
+              "majorRepairs": 24845
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [58, 57, 70],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [33, 34, 25],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [9, 9, 5],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 8880,
+              "suitable": 7960,
+              "notSuitable": 920,
+              "oneBedroomShortfall": 735,
+              "twoBedroomShortfall": 150,
+              "threeOrMoreBedroomShortfall": 35
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 2815,
+              "suitable": 2555,
+              "notSuitable": 260,
+              "oneBedroomShortfall": 175,
+              "twoBedroomShortfall": 75,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 507200,
+              "suitable": 465925,
+              "notSuitable": 41280,
+              "oneBedroomShortfall": 30895,
+              "twoBedroomShortfall": 7130,
+              "threeOrMoreBedroomShortfall": 3245
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [90, 91, 92],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [10, 9, 8],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Brantford": {
+      "year": 2016,
+      "id": "brantford-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 6335,
+              "regularMaintenance": 3505,
+              "minorRepairs": 1865,
+              "majorRepairs": 965
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 1085,
+              "regularMaintenance": 525,
+              "minorRepairs": 390,
+              "majorRepairs": 170
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 125305,
+              "regularMaintenance": 82415,
+              "minorRepairs": 34970,
+              "majorRepairs": 7920
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [55, 48, 66],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [29, 36, 28],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [15, 16, 6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 6335,
+              "suitable": 5540,
+              "notSuitable": 795,
+              "oneBedroomShortfall": 640,
+              "twoBedroomShortfall": 130,
+              "threeOrMoreBedroomShortfall": 20
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 1080,
+              "suitable": 1020,
+              "notSuitable": 60,
+              "oneBedroomShortfall": 60,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 125305,
+              "suitable": 117975,
+              "notSuitable": 7325,
+              "oneBedroomShortfall": 6160,
+              "twoBedroomShortfall": 855,
+              "threeOrMoreBedroomShortfall": 310
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [87, 94, 94],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [13, 6, 6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Woodstock": {
+      "year": 2016,
+      "id": "woodstock-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 940,
+              "regularMaintenance": 530,
+              "minorRepairs": 240,
+              "majorRepairs": 165
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 300,
+              "regularMaintenance": 160,
+              "minorRepairs": 80,
+              "majorRepairs": 55
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 39045,
+              "regularMaintenance": 27100,
+              "minorRepairs": 9500,
+              "majorRepairs": 2445
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [56, 53, 69],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [26, 27, 24],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [18, 18, 6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 935,
+              "suitable": 795,
+              "notSuitable": 140,
+              "oneBedroomShortfall": 115,
+              "twoBedroomShortfall": 25,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 300,
+              "suitable": 225,
+              "notSuitable": 70,
+              "oneBedroomShortfall": 70,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 39045,
+              "suitable": 37450,
+              "notSuitable": 1600,
+              "oneBedroomShortfall": 1250,
+              "twoBedroomShortfall": 300,
+              "threeOrMoreBedroomShortfall": 50
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [85, 75, 96],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [15, 23, 4],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Tillsonburg": {
+      "year": 2016,
+      "id": "tillsonburg-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 365,
+              "regularMaintenance": 240,
+              "minorRepairs": 75,
+              "majorRepairs": 50
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 160,
+              "regularMaintenance": 120,
+              "minorRepairs": 35,
+              "majorRepairs": 10
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 15230,
+              "regularMaintenance": 10925,
+              "minorRepairs": 3440,
+              "majorRepairs": 860
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [66, 75, 72],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [21, 22, 23],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [14, 6, 6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 360,
+              "suitable": 345,
+              "notSuitable": 15,
+              "oneBedroomShortfall": 15,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 160,
+              "suitable": 160,
+              "notSuitable": 0,
+              "oneBedroomShortfall": 0,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 15230,
+              "suitable": 14570,
+              "notSuitable": 660,
+              "oneBedroomShortfall": 625,
+              "twoBedroomShortfall": 35,
+              "threeOrMoreBedroomShortfall": 0
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [96, 100, 96],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [4, 0, 4],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Norfolk": {
+      "year": 2016,
+      "id": "norfolk-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 1795,
+              "regularMaintenance": 885,
+              "minorRepairs": 690,
+              "majorRepairs": 215
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 385,
+              "regularMaintenance": 175,
+              "minorRepairs": 165,
+              "majorRepairs": 45
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 60630,
+              "regularMaintenance": 41350,
+              "minorRepairs": 15210,
+              "majorRepairs": 4075
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [49, 45, 68],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [38, 43, 25],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [12, 12, 7],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 1795,
+              "suitable": 1670,
+              "notSuitable": 125,
+              "oneBedroomShortfall": 95,
+              "twoBedroomShortfall": 30,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 385,
+              "suitable": 370,
+              "notSuitable": 20,
+              "oneBedroomShortfall": 0,
+              "twoBedroomShortfall": 20,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 60630,
+              "suitable": 56765,
+              "notSuitable": 3870,
+              "oneBedroomShortfall": 2630,
+              "twoBedroomShortfall": 830,
+              "threeOrMoreBedroomShortfall": 410
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [93, 96, 94],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [7, 5, 6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Guelph": {
+      "year": 2016,
+      "id": "guelph-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 2280,
+              "regularMaintenance": 1210,
+              "minorRepairs": 800,
+              "majorRepairs": 270
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 930,
+              "regularMaintenance": 525,
+              "minorRepairs": 340,
+              "majorRepairs": 70
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 147750,
+              "regularMaintenance": 103530,
+              "minorRepairs": 37260,
+              "majorRepairs": 6960
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [53, 56, 70],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [35, 37, 25],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [12, 8, 5],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 2280,
+              "suitable": 2130,
+              "notSuitable": 150,
+              "oneBedroomShortfall": 140,
+              "twoBedroomShortfall": 10,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 930,
+              "suitable": 905,
+              "notSuitable": 30,
+              "oneBedroomShortfall": 30,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 147745,
+              "suitable": 137895,
+              "notSuitable": 9855,
+              "oneBedroomShortfall": 8140,
+              "twoBedroomShortfall": 1370,
+              "threeOrMoreBedroomShortfall": 345
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [93, 97, 93],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [7, 3, 7],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Stratford": {
+      "year": 2016,
+      "id": "stratford-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 525,
+              "regularMaintenance": 185,
+              "minorRepairs": 300,
+              "majorRepairs": 45
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 160,
+              "regularMaintenance": 55,
+              "minorRepairs": 105,
+              "majorRepairs": 10
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 30100,
+              "regularMaintenance": 19320,
+              "minorRepairs": 8890,
+              "majorRepairs": 1890
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [35, 34, 64],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [57, 66, 30],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [9, 6, 6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 525,
+              "suitable": 470,
+              "notSuitable": 60,
+              "oneBedroomShortfall": 45,
+              "twoBedroomShortfall": 10,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 165,
+              "suitable": 145,
+              "notSuitable": 20,
+              "oneBedroomShortfall": 15,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 30100,
+              "suitable": 28535,
+              "notSuitable": 1565,
+              "oneBedroomShortfall": 1365,
+              "twoBedroomShortfall": 170,
+              "threeOrMoreBedroomShortfall": 30
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [90, 88, 95],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [11, 12, 5],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "London": {
+      "year": 2016,
+      "id": "london-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 12075,
+              "regularMaintenance": 6620,
+              "minorRepairs": 4120,
+              "majorRepairs": 1330
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 2850,
+              "regularMaintenance": 1665,
+              "minorRepairs": 955,
+              "majorRepairs": 225
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 474435,
+              "regularMaintenance": 329235,
+              "minorRepairs": 117890,
+              "majorRepairs": 27305
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [55, 58, 69],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [34, 34, 25],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [11, 8, 6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 12070,
+              "suitable": 10790,
+              "notSuitable": 1280,
+              "oneBedroomShortfall": 1105,
+              "twoBedroomShortfall": 125,
+              "threeOrMoreBedroomShortfall": 50
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 2855,
+              "suitable": 2665,
+              "notSuitable": 185,
+              "oneBedroomShortfall": 165,
+              "twoBedroomShortfall": 20,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 474435,
+              "suitable": 439665,
+              "notSuitable": 34765,
+              "oneBedroomShortfall": 27365,
+              "twoBedroomShortfall": 6015,
+              "threeOrMoreBedroomShortfall": 1390
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [89, 93, 93],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [11, 6, 7],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Chatham-Kent": {
+      "year": 2016,
+      "id": "chatham-kent-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 4070,
+              "regularMaintenance": 1975,
+              "minorRepairs": 1475,
+              "majorRepairs": 620
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 1535,
+              "regularMaintenance": 770,
+              "minorRepairs": 610,
+              "majorRepairs": 155
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 95705,
+              "regularMaintenance": 62640,
+              "minorRepairs": 25790,
+              "majorRepairs": 7275
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [49, 50, 65],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [36, 40, 27],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [15, 10, 8],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 4070,
+              "suitable": 3740,
+              "notSuitable": 335,
+              "oneBedroomShortfall": 280,
+              "twoBedroomShortfall": 25,
+              "threeOrMoreBedroomShortfall": 25
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 1530,
+              "suitable": 1435,
+              "notSuitable": 95,
+              "oneBedroomShortfall": 90,
+              "twoBedroomShortfall": 10,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 95705,
+              "suitable": 90090,
+              "notSuitable": 5615,
+              "oneBedroomShortfall": 4690,
+              "twoBedroomShortfall": 535,
+              "threeOrMoreBedroomShortfall": 390
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [92, 94, 94],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [8, 6, 6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Leamington": {
+      "year": 2016,
+      "id": "leamington-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 860,
+              "regularMaintenance": 500,
+              "minorRepairs": 265,
+              "majorRepairs": 95
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 330,
+              "regularMaintenance": 185,
+              "minorRepairs": 135,
+              "majorRepairs": 15
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 45415,
+              "regularMaintenance": 31975,
+              "minorRepairs": 11090,
+              "majorRepairs": 2355
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [58, 56, 70],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [31, 41, 24],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [11, 5, 5],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 860,
+              "suitable": 810,
+              "notSuitable": 50,
+              "oneBedroomShortfall": 50,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 330,
+              "suitable": 325,
+              "notSuitable": 10,
+              "oneBedroomShortfall": 10,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 45415,
+              "suitable": 41225,
+              "notSuitable": 4190,
+              "oneBedroomShortfall": 2975,
+              "twoBedroomShortfall": 835,
+              "threeOrMoreBedroomShortfall": 375
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [94, 98, 91],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [6, 3, 9],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Windsor": {
+      "year": 2016,
+      "id": "windsor-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 8485,
+              "regularMaintenance": 5015,
+              "minorRepairs": 2465,
+              "majorRepairs": 1010
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 4245,
+              "regularMaintenance": 2500,
+              "minorRepairs": 1205,
+              "majorRepairs": 540
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 316520,
+              "regularMaintenance": 220345,
+              "minorRepairs": 75860,
+              "majorRepairs": 20315
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [59, 59, 70],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [29, 28, 24],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [12, 13, 6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 8485,
+              "suitable": 7745,
+              "notSuitable": 735,
+              "oneBedroomShortfall": 630,
+              "twoBedroomShortfall": 55,
+              "threeOrMoreBedroomShortfall": 55
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 4250,
+              "suitable": 3945,
+              "notSuitable": 300,
+              "oneBedroomShortfall": 245,
+              "twoBedroomShortfall": 20,
+              "threeOrMoreBedroomShortfall": 35
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 316520,
+              "suitable": 291285,
+              "notSuitable": 25230,
+              "oneBedroomShortfall": 19255,
+              "twoBedroomShortfall": 4490,
+              "threeOrMoreBedroomShortfall": 1490
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [91, 93, 92],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [9, 7, 8],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Sarnia": {
+      "year": 2016,
+      "id": "sarnia-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 3985,
+              "regularMaintenance": 1960,
+              "minorRepairs": 1420,
+              "majorRepairs": 610
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 1040,
+              "regularMaintenance": 545,
+              "minorRepairs": 360,
+              "majorRepairs": 135
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 90900,
+              "regularMaintenance": 60975,
+              "minorRepairs": 23855,
+              "majorRepairs": 6070
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [49, 52, 67],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [36, 35, 26],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [15, 13, 7],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 3980,
+              "suitable": 3535,
+              "notSuitable": 450,
+              "oneBedroomShortfall": 350,
+              "twoBedroomShortfall": 75,
+              "threeOrMoreBedroomShortfall": 20
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 1045,
+              "suitable": 965,
+              "notSuitable": 75,
+              "oneBedroomShortfall": 60,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 15
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 90905,
+              "suitable": 87485,
+              "notSuitable": 3415,
+              "oneBedroomShortfall": 2810,
+              "twoBedroomShortfall": 440,
+              "threeOrMoreBedroomShortfall": 170
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [89, 92, 96],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [11, 7, 4],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Wasaga Beach": {
+      "year": 2016,
+      "id": "wasaga-beach-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 610,
+              "regularMaintenance": 365,
+              "minorRepairs": 195,
+              "majorRepairs": 45
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 285,
+              "regularMaintenance": 160,
+              "minorRepairs": 105,
+              "majorRepairs": 20
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 19795,
+              "regularMaintenance": 14670,
+              "minorRepairs": 4400,
+              "majorRepairs": 720
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [60, 56, 74],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [32, 37, 22],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [7, 7, 4],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 610,
+              "suitable": 545,
+              "notSuitable": 65,
+              "oneBedroomShortfall": 60,
+              "twoBedroomShortfall": 10,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 285,
+              "suitable": 275,
+              "notSuitable": 10,
+              "oneBedroomShortfall": 10,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 19795,
+              "suitable": 18920,
+              "notSuitable": 880,
+              "oneBedroomShortfall": 710,
+              "twoBedroomShortfall": 150,
+              "threeOrMoreBedroomShortfall": 15
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [89, 96, 96],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [11, 4, 4],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Owen Sound": {
+      "year": 2016,
+      "id": "owen-sound-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 1125,
+              "regularMaintenance": 620,
+              "minorRepairs": 340,
+              "majorRepairs": 170
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 460,
+              "regularMaintenance": 265,
+              "minorRepairs": 140,
+              "majorRepairs": 55
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 29645,
+              "regularMaintenance": 18595,
+              "minorRepairs": 8840,
+              "majorRepairs": 2210
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [55, 58, 63],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [30, 30, 30],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [15, 12, 7],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 1125,
+              "suitable": 1015,
+              "notSuitable": 115,
+              "oneBedroomShortfall": 100,
+              "twoBedroomShortfall": 15,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 465,
+              "suitable": 450,
+              "notSuitable": 15,
+              "oneBedroomShortfall": 15,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 29645,
+              "suitable": 28520,
+              "notSuitable": 1125,
+              "oneBedroomShortfall": 970,
+              "twoBedroomShortfall": 155,
+              "threeOrMoreBedroomShortfall": 0
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [90, 97, 96],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [10, 3, 4],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Collingwood": {
+      "year": 2016,
+      "id": "collingwood-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 605,
+              "regularMaintenance": 365,
+              "minorRepairs": 170,
+              "majorRepairs": 75
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 285,
+              "regularMaintenance": 165,
+              "minorRepairs": 65,
+              "majorRepairs": 55
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 20535,
+              "regularMaintenance": 14230,
+              "minorRepairs": 5050,
+              "majorRepairs": 1255
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [60, 58, 69],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [28, 23, 25],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [12, 19, 6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 610,
+              "suitable": 545,
+              "notSuitable": 60,
+              "oneBedroomShortfall": 40,
+              "twoBedroomShortfall": 20,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 285,
+              "suitable": 255,
+              "notSuitable": 30,
+              "oneBedroomShortfall": 25,
+              "twoBedroomShortfall": 10,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 20540,
+              "suitable": 19605,
+              "notSuitable": 930,
+              "oneBedroomShortfall": 800,
+              "twoBedroomShortfall": 110,
+              "threeOrMoreBedroomShortfall": 20
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [89, 89, 95],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [11, 11, 5],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Barrie": {
+      "year": 2016,
+      "id": "barrie-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 6905,
+              "regularMaintenance": 3765,
+              "minorRepairs": 2630,
+              "majorRepairs": 510
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 3165,
+              "regularMaintenance": 1790,
+              "minorRepairs": 1135,
+              "majorRepairs": 235
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 187535,
+              "regularMaintenance": 125520,
+              "minorRepairs": 53200,
+              "majorRepairs": 8820
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [55, 57, 67],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [38, 36, 28],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [7, 7, 5],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 6905,
+              "suitable": 6350,
+              "notSuitable": 560,
+              "oneBedroomShortfall": 450,
+              "twoBedroomShortfall": 65,
+              "threeOrMoreBedroomShortfall": 35
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 3165,
+              "suitable": 2950,
+              "notSuitable": 210,
+              "oneBedroomShortfall": 190,
+              "twoBedroomShortfall": 15,
+              "threeOrMoreBedroomShortfall": 10
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 187540,
+              "suitable": 176870,
+              "notSuitable": 10665,
+              "oneBedroomShortfall": 8670,
+              "twoBedroomShortfall": 1400,
+              "threeOrMoreBedroomShortfall": 600
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [92, 93, 94],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [8, 7, 6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Orillia": {
+      "year": 2016,
+      "id": "orillia-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 1840,
+              "regularMaintenance": 910,
+              "minorRepairs": 675,
+              "majorRepairs": 250
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 470,
+              "regularMaintenance": 230,
+              "minorRepairs": 180,
+              "majorRepairs": 60
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 28120,
+              "regularMaintenance": 17510,
+              "minorRepairs": 8500,
+              "majorRepairs": 2115
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [49, 49, 62],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [37, 38, 30],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [14, 13, 8],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 1835,
+              "suitable": 1580,
+              "notSuitable": 255,
+              "oneBedroomShortfall": 240,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 10
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 470,
+              "suitable": 400,
+              "notSuitable": 75,
+              "oneBedroomShortfall": 75,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 28120,
+              "suitable": 26100,
+              "notSuitable": 2020,
+              "oneBedroomShortfall": 1755,
+              "twoBedroomShortfall": 190,
+              "threeOrMoreBedroomShortfall": 75
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [86, 85, 93],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [14, 15, 7],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Midland": {
+      "year": 2016,
+      "id": "midland-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 5135,
+              "regularMaintenance": 2620,
+              "minorRepairs": 1975,
+              "majorRepairs": 535
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 3800,
+              "regularMaintenance": 2035,
+              "minorRepairs": 1370,
+              "majorRepairs": 390
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 29525,
+              "regularMaintenance": 18165,
+              "minorRepairs": 9245,
+              "majorRepairs": 2110
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [51, 54, 62],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [38, 36, 31],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [11, 10, 7],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 5130,
+              "suitable": 4770,
+              "notSuitable": 360,
+              "oneBedroomShortfall": 330,
+              "twoBedroomShortfall": 30,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 3795,
+              "suitable": 3585,
+              "notSuitable": 215,
+              "oneBedroomShortfall": 185,
+              "twoBedroomShortfall": 30,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 29525,
+              "suitable": 28240,
+              "notSuitable": 1285,
+              "oneBedroomShortfall": 1190,
+              "twoBedroomShortfall": 50,
+              "threeOrMoreBedroomShortfall": 40
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [93, 94, 96],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [7, 6, 4],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "North Bay": {
+      "year": 2016,
+      "id": "north-bay-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 7135,
+              "regularMaintenance": 3510,
+              "minorRepairs": 2695,
+              "majorRepairs": 930
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 2825,
+              "regularMaintenance": 1340,
+              "minorRepairs": 1090,
+              "majorRepairs": 390
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 61580,
+              "regularMaintenance": 37710,
+              "minorRepairs": 19405,
+              "majorRepairs": 4460
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [49, 47, 61],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [38, 39, 32],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [13, 14, 7],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 7130,
+              "suitable": 6560,
+              "notSuitable": 570,
+              "oneBedroomShortfall": 395,
+              "twoBedroomShortfall": 140,
+              "threeOrMoreBedroomShortfall": 35
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 2825,
+              "suitable": 2690,
+              "notSuitable": 135,
+              "oneBedroomShortfall": 110,
+              "twoBedroomShortfall": 25,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 61580,
+              "suitable": 59300,
+              "notSuitable": 2280,
+              "oneBedroomShortfall": 1945,
+              "twoBedroomShortfall": 320,
+              "threeOrMoreBedroomShortfall": 15
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [92, 95, 96],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [8, 5, 4],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Greater Sudbury": {
+      "year": 2016,
+      "id": "greater-sudbury-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 15690,
+              "regularMaintenance": 8290,
+              "minorRepairs": 5660,
+              "majorRepairs": 1745
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 7745,
+              "regularMaintenance": 4260,
+              "minorRepairs": 2720,
+              "majorRepairs": 775
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 146125,
+              "regularMaintenance": 90705,
+              "minorRepairs": 44985,
+              "majorRepairs": 10430
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [53, 55, 62],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [36, 35, 31],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [11, 10, 7],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 15695,
+              "suitable": 14760,
+              "notSuitable": 935,
+              "oneBedroomShortfall": 735,
+              "twoBedroomShortfall": 170,
+              "threeOrMoreBedroomShortfall": 30
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 7745,
+              "suitable": 7420,
+              "notSuitable": 330,
+              "oneBedroomShortfall": 245,
+              "twoBedroomShortfall": 80,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 146120,
+              "suitable": 140580,
+              "notSuitable": 5540,
+              "oneBedroomShortfall": 4795,
+              "twoBedroomShortfall": 590,
+              "threeOrMoreBedroomShortfall": 155
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [94, 96, 96],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [6, 4, 4],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Elliot Lake": {
+      "year": 2016,
+      "id": "elliot-lake-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 1030,
+              "regularMaintenance": 590,
+              "minorRepairs": 290,
+              "majorRepairs": 145
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 515,
+              "regularMaintenance": 310,
+              "minorRepairs": 120,
+              "majorRepairs": 90
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 9550,
+              "regularMaintenance": 6080,
+              "minorRepairs": 2720,
+              "majorRepairs": 755
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [57, 60, 64],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [28, 23, 28],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [15, 17, 8],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 1025,
+              "suitable": 950,
+              "notSuitable": 85,
+              "oneBedroomShortfall": 60,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 20
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 515,
+              "suitable": 485,
+              "notSuitable": 30,
+              "oneBedroomShortfall": 30,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 9550,
+              "suitable": 9255,
+              "notSuitable": 295,
+              "oneBedroomShortfall": 230,
+              "twoBedroomShortfall": 65,
+              "threeOrMoreBedroomShortfall": 0
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [93, 94, 97],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [7, 6, 3],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Timmins": {
+      "year": 2016,
+      "id": "timmins-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 4715,
+              "regularMaintenance": 2430,
+              "minorRepairs": 1615,
+              "majorRepairs": 670
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 2305,
+              "regularMaintenance": 1250,
+              "minorRepairs": 755,
+              "majorRepairs": 290
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 36515,
+              "regularMaintenance": 21425,
+              "minorRepairs": 12060,
+              "majorRepairs": 3030
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [52, 54, 59],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [34, 33, 33],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [14, 13, 8],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 4710,
+              "suitable": 4350,
+              "notSuitable": 360,
+              "oneBedroomShortfall": 290,
+              "twoBedroomShortfall": 30,
+              "threeOrMoreBedroomShortfall": 40
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 2305,
+              "suitable": 2240,
+              "notSuitable": 65,
+              "oneBedroomShortfall": 65,
+              "twoBedroomShortfall": 0,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 36515,
+              "suitable": 34950,
+              "notSuitable": 1565,
+              "oneBedroomShortfall": 1380,
+              "twoBedroomShortfall": 140,
+              "threeOrMoreBedroomShortfall": 50
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [92, 97, 96],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [8, 3, 4],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Sault Ste. Marie": {
+      "year": 2016,
+      "id": "sault-ste-marie-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 9550,
+              "regularMaintenance": 4895,
+              "minorRepairs": 3295,
+              "majorRepairs": 1355
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 3840,
+              "regularMaintenance": 1885,
+              "minorRepairs": 1435,
+              "majorRepairs": 520
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 67125,
+              "regularMaintenance": 43105,
+              "minorRepairs": 19790,
+              "majorRepairs": 4230
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [51, 49, 64],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [35, 37, 30],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [14, 14, 6],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 9545,
+              "suitable": 8860,
+              "notSuitable": 685,
+              "oneBedroomShortfall": 615,
+              "twoBedroomShortfall": 70,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 3840,
+              "suitable": 3675,
+              "notSuitable": 170,
+              "oneBedroomShortfall": 165,
+              "twoBedroomShortfall": 10,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 67125,
+              "suitable": 64720,
+              "notSuitable": 2405,
+              "oneBedroomShortfall": 1900,
+              "twoBedroomShortfall": 455,
+              "threeOrMoreBedroomShortfall": 45
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [93, 96, 96],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [7, 4, 4],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Thunder Bay": {
+      "year": 2016,
+      "id": "thunder-bay-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 15075,
+              "regularMaintenance": 7910,
+              "minorRepairs": 5160,
+              "majorRepairs": 2005
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 3445,
+              "regularMaintenance": 1790,
+              "minorRepairs": 1315,
+              "majorRepairs": 340
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 103810,
+              "regularMaintenance": 66265,
+              "minorRepairs": 30770,
+              "majorRepairs": 6765
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [52, 52, 64],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [34, 38, 30],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [13, 10, 7],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 15075,
+              "suitable": 12855,
+              "notSuitable": 2220,
+              "oneBedroomShortfall": 1825,
+              "twoBedroomShortfall": 295,
+              "threeOrMoreBedroomShortfall": 100
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 3445,
+              "suitable": 3180,
+              "notSuitable": 260,
+              "oneBedroomShortfall": 235,
+              "twoBedroomShortfall": 25,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 103805,
+              "suitable": 99740,
+              "notSuitable": 4065,
+              "oneBedroomShortfall": 3230,
+              "twoBedroomShortfall": 795,
+              "threeOrMoreBedroomShortfall": 40
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [85, 92, 96],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [15, 8, 4],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Kenora": {
+      "year": 2016,
+      "id": "kenora-on",
+      "categories": {
+        "dwellingCondition": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "total": 3155,
+              "regularMaintenance": 1310,
+              "minorRepairs": 1245,
+              "majorRepairs": 600
+            },
+            {
+              "identityGroup": "Métis",
+              "total": 1495,
+              "regularMaintenance": 560,
+              "minorRepairs": 630,
+              "majorRepairs": 305
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "total": 11640,
+              "regularMaintenance": 6210,
+              "minorRepairs": 4440,
+              "majorRepairs": 995
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Regular Maintenance Needed",
+                "data": [42, 37, 53],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Minor Repair Needed",
+                "data": [39, 42, 38],
+                "backgroundColor": "#FFD700"
+              },
+              {
+                "label": "Major Repair Needed",
+                "data": [19, 20, 9],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        },
+        "housingSuitability": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalHousing": 3155,
+              "suitable": 2710,
+              "notSuitable": 445,
+              "oneBedroomShortfall": 325,
+              "twoBedroomShortfall": 115,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Métis",
+              "totalHousing": 1495,
+              "suitable": 1390,
+              "notSuitable": 100,
+              "oneBedroomShortfall": 65,
+              "twoBedroomShortfall": 35,
+              "threeOrMoreBedroomShortfall": 0
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalHousing": 11640,
+              "suitable": 11105,
+              "notSuitable": 540,
+              "oneBedroomShortfall": 430,
+              "twoBedroomShortfall": 90,
+              "threeOrMoreBedroomShortfall": 15
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Aboriginal identity",
+              "Métis",
+              "Non-Aboriginal identity"
+            ],
+            "datasets": [
+              {
+                "label": "Suitable",
+                "data": [86, 93, 95],
+                "backgroundColor": "#90EE90"
+              },
+              {
+                "label": "Not suitable",
+                "data": [14, 7, 5],
+                "backgroundColor": "#FF6384"
+              }
+            ]
+          }
+        }
+      }
     }
   },
   "MB": {
