@@ -1,10 +1,9 @@
-import NaviBar from "./components/NaviBar";
-import { Route, Routes, Navigate } from "react-router-dom";
-// import {BrowserRouter} from "react-router-dom";
-import SnapShot from "./pages/SnapShot";
-import StaticNavBar from "./components/StaticNavBar";
-import Background from "./components/Background";
-import { HashRouter } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router";
+import SnapShot from "@pages/SnapShot";
+import NavBar from "@components/common/NavBar";
+import Background from "@components/common/Background";
+import { HashRouter } from "react-router";
+import Profile from "@pages/Profile";
 
 const PageLayout = ({ children }) => {
   return <div className="mt-10 items-center flex flex-col">{children}</div>;
@@ -13,10 +12,8 @@ const PageLayout = ({ children }) => {
 function App() {
   return (
     <HashRouter>
-      {/* uncomment below line when there will be more tabs than snapshot */}
-      <NaviBar />
       <Background>
-        {/* <StaticNavBar /> */}
+        <NavBar />
         <PageLayout>
           <Routes>
             <Route path="/" element={<Navigate to="/snapshot" replace />} />
@@ -29,6 +26,7 @@ function App() {
               path="/snapshot/:province/:category/:subcategory"
               element={<SnapShot />}
             />
+            <Route path="/profile" element={<Profile />} />
           </Routes>
         </PageLayout>
       </Background>

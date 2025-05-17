@@ -1,7 +1,7 @@
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
-export default function ProvinceSelect({ value, options, onChange }) {
+export default function DropDown({ value, options, onChange }) {
   // get current selected name
   const selectedName = options.find((opt) => opt.id === value)?.name || "";
 
