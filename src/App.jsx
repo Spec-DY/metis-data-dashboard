@@ -27,6 +27,7 @@ function App() {
               element={<SnapShot />}
             />
             <Route path="/profile" element={<Profile />} />
+            <Route path="/profile/:category" element={<Profile />} />
           </Routes>
         </PageLayout>
       </Background>

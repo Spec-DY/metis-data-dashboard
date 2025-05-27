@@ -23,7 +23,7 @@ ChartJS.register(
   Legend
 );
 
-const EducationBarChart = ({
+const EducationChart = ({
   labels = [],
   originalLabels = [],
   datasets = [],
@@ -92,14 +92,11 @@ const EducationBarChart = ({
       legend: {
         display: true,
         position: "top",
-        align: "end",
+        align: "center",
         labels: {
-          usePointStyle: true,
-          pointStyle: "circle",
-          font: {
-            size: 12,
-          },
-          padding: 20,
+          usePointStyle: false, // use square instead of circle
+          pointStyle: "rect", // explicitly set to rectangle
+          padding: 15,
         },
       },
       tooltip: {
@@ -133,27 +130,34 @@ const EducationBarChart = ({
     aspectRatio: 1.5,
   };
 
-  // Ensure datasets have the correct colors matching your screenshot
-  const processedDatasets = datasets.map((dataset, index) => {
+  // make sure labels are unique and not empty
+  const processedDatasets = datasets.map((dataset) => {
     let backgroundColor;
+    let borderColor;
+
+    // set background and border colors based on dataset label
     switch (dataset.label) {
       case "Aboriginal":
-        backgroundColor = "#90EE90"; // Light green
+        backgroundColor = "#90EE90"; // light green
+        borderColor = "#90EE90";
         break;
       case "Métis":
-        backgroundColor = "#4285F4"; // Blue
+        backgroundColor = "#4285F4"; // blue
+        borderColor = "#4285F4";
         break;
       case "Non-Aboriginal":
-        backgroundColor = "#FF6384"; // Red/Pink
+        backgroundColor = "#FF6384"; // red
+        borderColor = "#FF6384";
         break;
       default:
-        backgroundColor = dataset.backgroundColor;
+        backgroundColor = dataset.backgroundColor || "#90EE90";
+        borderColor = dataset.borderColor || backgroundColor;
     }
 
     return {
       ...dataset,
       backgroundColor,
-      borderColor: backgroundColor,
+      borderColor,
       borderWidth: 0,
     };
   });
@@ -170,4 +174,4 @@ const EducationBarChart = ({
   );
 };
 
-export default EducationBarChart;
+export default EducationChart;

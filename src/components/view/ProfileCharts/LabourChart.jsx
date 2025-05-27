@@ -65,32 +65,29 @@ const LabourChart = ({ identityGroup, data, title }) => {
           size: 20, // header size
           weight: "bold",
         },
-        color:
-          identityGroup === "Aboriginal"
-            ? "#006400"
-            : identityGroup === "Métis"
-            ? "#4285F4"
-            : "#FF6384",
+        color: "black",
         padding: {
-          bottom: 20, // space between title and chart
+          bottom: 20, // increase padding below the title
         },
       },
       legend: {
         display: true,
         position: "top",
-        align: "end",
+        align: "center",
         labels: {
-          usePointStyle: true,
+          usePointStyle: false, // use square instead of circle
+          pointStyle: "rect", // explicitly set to rectangle
           font: {
             size: 11,
           },
+          padding: 15,
         },
       },
       tooltip: {
         backgroundColor: "rgba(0, 0, 0, 0.8)",
         callbacks: {
           label: (context) => {
-            return `${context.dataset.label}: ${context.parsed.y}%`;
+            return `${context.dataset.label}: ${context.parsed.y.toFixed(1)}%`;
           },
         },
       },

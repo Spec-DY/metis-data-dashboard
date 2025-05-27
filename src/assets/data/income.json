@@ -1,0 +1,129 @@
+{
+  "ON": {
+    "Cornwall": {
+      "year": 2016,
+      "id": "cornwall-on",
+      "categories": {
+        "overallSummary": {
+          "tableData": [
+            {
+              "category": "Total Population",
+              "totalPopulation": 48820,
+              "aboriginal": 1700,
+              "metis": 555,
+              "nonAboriginal": 47120
+            },
+            {
+              "category": "Population with after-tax income",
+              "totalPopulation": 46940,
+              "aboriginal": 1560,
+              "metis": 530,
+              "nonAboriginal": 45380
+            },
+            {
+              "category": "Percentage with after-tax income (%)",
+              "totalPopulation": 96,
+              "aboriginal": 92,
+              "metis": 96,
+              "nonAboriginal": 96
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Median after-tax income ($)",
+              "Average after-tax income ($)"
+            ],
+            "aboriginal": [19396, 24386],
+            "metis": [21292, 26951],
+            "nonAboriginal": [26509, 31625]
+          }
+        },
+        "lowIncomeSummary": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalPopulationApplicable": 2365,
+              "populationLowIncome": 1005,
+              "populationNotLowIncome": 1355,
+              "prevalenceOfLowIncome": "42.5%"
+            },
+            {
+              "identityGroup": "Métis",
+              "totalPopulationApplicable": 685,
+              "populationLowIncome": 215,
+              "populationNotLowIncome": 475,
+              "prevalenceOfLowIncome": "31.4%"
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalPopulationApplicable": 55765,
+              "populationLowIncome": 12145,
+              "populationNotLowIncome": 43620,
+              "prevalenceOfLowIncome": "21.8%"
+            }
+          ]
+        },
+        "metisIncomeByAge": {
+          "tableData": [
+            {
+              "ageGroup": "Total - Age",
+              "totalPopulation": 685,
+              "lowIncomePopulation": 215,
+              "notLowIncomePopulation": 470,
+              "prevalenceRate": "31.4%"
+            },
+            {
+              "ageGroup": "0 to 17 years",
+              "totalPopulation": 130,
+              "lowIncomePopulation": 55,
+              "notLowIncomePopulation": 75,
+              "prevalenceRate": "42.9%"
+            },
+            {
+              "ageGroup": "18 to 24 years",
+              "totalPopulation": 125,
+              "lowIncomePopulation": 50,
+              "notLowIncomePopulation": 75,
+              "prevalenceRate": "39.1%"
+            },
+            {
+              "ageGroup": "25 to 54 years",
+              "totalPopulation": 245,
+              "lowIncomePopulation": 65,
+              "notLowIncomePopulation": 180,
+              "prevalenceRate": "27.1%"
+            },
+            {
+              "ageGroup": "55 to 64 years",
+              "totalPopulation": 115,
+              "lowIncomePopulation": 25,
+              "notLowIncomePopulation": 90,
+              "prevalenceRate": "22.7%"
+            },
+            {
+              "ageGroup": "65 years and over",
+              "totalPopulation": 70,
+              "lowIncomePopulation": 15,
+              "notLowIncomePopulation": 55,
+              "prevalenceRate": "18.8%"
+            }
+          ],
+          "chartData": {
+            "labels": [
+              "Total - Age",
+              "0 to 17 years",
+              "18 to 24 years",
+              "25 to 54 years",
+              "55 to 64 years",
+              "65 years and over"
+            ],
+            "totalPopulation": [685, 130, 125, 245, 115, 70],
+            "lowIncomePopulation": [215, 55, 50, 65, 25, 15],
+            "notLowIncomePopulation": [470, 75, 75, 180, 90, 55],
+            "prevalenceRate": [31.4, 42.9, 39.1, 27.1, 22.7, 18.8]
+          }
+        }
+      }
+    }
+  }
+}

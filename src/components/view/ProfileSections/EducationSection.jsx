@@ -71,7 +71,7 @@ const createSimplifiedLabels = (labels) => {
 
 import { useState, useEffect } from "react";
 import Card from "@components/common/Card";
-import EducationBarChart from "@components/view/ProfileCharts/EducationBarChart";
+import EducationChart from "@components/view/ProfileCharts/EducationChart";
 import DataTable from "@components/view/ProfileCharts/DataTable";
 import educationData from "@data/education.json";
 
@@ -273,7 +273,7 @@ const EducationSection = () => {
           <div className="flex flex-col">
             {/* Education Chart */}
             <div className="w-full mx-auto p-8">
-              <EducationBarChart
+              <EducationChart
                 labels={currentData.chartData.labels}
                 originalLabels={currentData.chartData.originalLabels}
                 datasets={currentData.chartData.datasets}

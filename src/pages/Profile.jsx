@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState, useEffect } from "react";
+import { useNavigate, useParams } from "react-router";
 import CategoryTabs from "@components/common/CategoryTabs";
-import Card from "@components/common/Card";
 import DropDown from "@components/common/DropDown";
 import DemographicSection from "@components/view/ProfileSections/DemographicSection";
 import {
@@ -13,8 +13,12 @@ import {
 import HousingSection from "../components/view/ProfileSections/HousingSection";
 import EducationSection from "../components/view/ProfileSections/EducationSection";
 import LaborSection from "../components/view/ProfileSections/LaborSection";
+import IncomeSection from "../components/view/ProfileSections/IncomeSection";
 
 export default function Profile() {
+  const navigate = useNavigate();
+  const { category } = useParams();
+
   const categories = [
     { id: "demographic", name: "Demographic", icon: faUsers },
     { id: "housing", name: "Housing", icon: faHouse },
@@ -23,10 +27,24 @@ export default function Profile() {
     { id: "income", name: "Income", icon: faMoneyBill },
   ];
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0].id);
+  // initialize currentCategory based on URL parameter or default to first category
+  const [currentCategory, setCurrentCategory] = useState(
+    category && categories.find((cat) => cat.id === category)
+      ? category
+      : categories[0].id
+  );
+
+  // update currentCategory when URL parameter changes
+  useEffect(() => {
+    if (category && categories.find((cat) => cat.id === category)) {
+      setCurrentCategory(category);
+    }
+  }, [category]);
 
   const handleCategoryChange = (categoryId) => {
     setCurrentCategory(categoryId);
+    // update the URL
+    navigate(`/profile/${categoryId}`);
   };
 
   const content = (
@@ -45,11 +63,7 @@ export default function Profile() {
 
         {currentCategory === "labourForce" && <LaborSection />}
 
-        {currentCategory === "income" && (
-          <div>
-            <Card>Income content goes here.</Card>
-          </div>
-        )}
+        {currentCategory === "income" && <IncomeSection />}
       </div>
     </div>
   );
