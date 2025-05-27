@@ -148,7 +148,7 @@ const EducationSection = () => {
         label: "Aboriginal",
         data: educationRows.map((row) =>
           totalRow.aboriginal > 0
-            ? Math.round((row.aboriginal / totalRow.aboriginal) * 100)
+            ? ((row.aboriginal / totalRow.aboriginal) * 100).toFixed(2)
             : 0
         ),
         backgroundColor: "#90EE90",
@@ -157,7 +157,7 @@ const EducationSection = () => {
         label: "Métis",
         data: educationRows.map((row) =>
           totalRow.metis > 0
-            ? Math.round((row.metis / totalRow.metis) * 100)
+            ? ((row.metis / totalRow.metis) * 100).toFixed(2)
             : 0
         ),
         backgroundColor: "#4285F4",
@@ -166,7 +166,7 @@ const EducationSection = () => {
         label: "Non-Aboriginal",
         data: educationRows.map((row) =>
           totalRow.nonAboriginal > 0
-            ? Math.round((row.nonAboriginal / totalRow.nonAboriginal) * 100)
+            ? ((row.nonAboriginal / totalRow.nonAboriginal) * 100).toFixed(2)
             : 0
         ),
         backgroundColor: "#FF6384",

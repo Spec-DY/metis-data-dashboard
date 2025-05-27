@@ -79,6 +79,646 @@
           ]
         }
       }
+    },
+    "Hawkesbury": {
+      "year": 2016,
+      "id": "hawkesbury-on",
+      "categories": {
+        "highestEducation": {
+          "tableData": [
+            {
+              "educationLevel": "Total Population",
+              "totalPopulation": 9955,
+              "aboriginal": 195,
+              "metis": 90,
+              "nonAboriginal": 9760
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, no postsecondary certificate, diploma or degree",
+              "totalPopulation": 3150,
+              "aboriginal": 70,
+              "metis": 35,
+              "nonAboriginal": 3090
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, with apprenticeship or trades certificate or diploma",
+              "totalPopulation": 225,
+              "aboriginal": 10,
+              "metis": 0,
+              "nonAboriginal": 220
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, with college, CEGEP or other non-university certificate or diploma",
+              "totalPopulation": 45,
+              "aboriginal": 0,
+              "metis": 0,
+              "nonAboriginal": 40
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, no postsecondary certificate, diploma or degree",
+              "totalPopulation": 3125,
+              "aboriginal": 55,
+              "metis": 25,
+              "nonAboriginal": 3065
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with apprenticeship or trades certificate or diploma",
+              "totalPopulation": 770,
+              "aboriginal": 25,
+              "metis": 10,
+              "nonAboriginal": 745
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with college, CEGEP or other non-university certificate or diploma",
+              "totalPopulation": 1740,
+              "aboriginal": 30,
+              "metis": 10,
+              "nonAboriginal": 1715
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with university certificate or diploma below bachelor level",
+              "totalPopulation": 190,
+              "aboriginal": 0,
+              "metis": 0,
+              "nonAboriginal": 190
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with bachelor's degree",
+              "totalPopulation": 505,
+              "aboriginal": 15,
+              "metis": 0,
+              "nonAboriginal": 495
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with university certificate, diploma or degree above bachelor level",
+              "totalPopulation": 195,
+              "aboriginal": 0,
+              "metis": 0,
+              "nonAboriginal": 190
+            }
+          ]
+        }
+      }
+    },
+    "Hawkesbury (Quebec part)": {
+      "year": 2016,
+      "id": "hawkesbury-qc",
+      "categories": {
+        "highestEducation": {
+          "tableData": [
+            {
+              "educationLevel": "Total Population",
+              "totalPopulation": 1420,
+              "aboriginal": 15,
+              "metis": 0,
+              "nonAboriginal": 1405
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, no postsecondary certificate, diploma or degree",
+              "totalPopulation": 455,
+              "aboriginal": 0,
+              "metis": 0,
+              "nonAboriginal": 455
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, with apprenticeship or trades certificate or diploma",
+              "totalPopulation": 80,
+              "aboriginal": 0,
+              "metis": 0,
+              "nonAboriginal": 85
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, with college, CEGEP or other non-university certificate or diploma",
+              "totalPopulation": 0,
+              "aboriginal": 0,
+              "metis": 0,
+              "nonAboriginal": 0
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, no postsecondary certificate, diploma or degree",
+              "totalPopulation": 390,
+              "aboriginal": 0,
+              "metis": 0,
+              "nonAboriginal": 390
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with apprenticeship or trades certificate or diploma",
+              "totalPopulation": 190,
+              "aboriginal": 15,
+              "metis": 0,
+              "nonAboriginal": 180
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with college, CEGEP or other non-university certificate or diploma",
+              "totalPopulation": 225,
+              "aboriginal": 0,
+              "metis": 0,
+              "nonAboriginal": 220
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with university certificate or diploma below bachelor level",
+              "totalPopulation": 10,
+              "aboriginal": 0,
+              "metis": 0,
+              "nonAboriginal": 10
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with bachelor's degree",
+              "totalPopulation": 45,
+              "aboriginal": 0,
+              "metis": 0,
+              "nonAboriginal": 50
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with university certificate, diploma or degree above bachelor level",
+              "totalPopulation": 20,
+              "aboriginal": 0,
+              "metis": 0,
+              "nonAboriginal": 20
+            }
+          ]
+        }
+      }
+    },
+    "Hawkesbury (Ontario part)": {
+      "year": 2016,
+      "id": "hawkesbury-on",
+      "categories": {
+        "highestEducation": {
+          "tableData": [
+            {
+              "educationLevel": "Total Population",
+              "totalPopulation": 8535,
+              "aboriginal": 180,
+              "metis": 90,
+              "nonAboriginal": 8355
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, no postsecondary certificate, diploma or degree",
+              "totalPopulation": 2700,
+              "aboriginal": 65,
+              "metis": 30,
+              "nonAboriginal": 2635
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, with apprenticeship or trades certificate or diploma",
+              "totalPopulation": 145,
+              "aboriginal": 0,
+              "metis": 10,
+              "nonAboriginal": 135
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, with college, CEGEP or other non-university certificate or diploma",
+              "totalPopulation": 45,
+              "aboriginal": 0,
+              "metis": 0,
+              "nonAboriginal": 45
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, no postsecondary certificate, diploma or degree",
+              "totalPopulation": 2735,
+              "aboriginal": 55,
+              "metis": 25,
+              "nonAboriginal": 2680
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with apprenticeship or trades certificate or diploma",
+              "totalPopulation": 580,
+              "aboriginal": 15,
+              "metis": 10,
+              "nonAboriginal": 565
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with college, CEGEP or other non-university certificate or diploma",
+              "totalPopulation": 1520,
+              "aboriginal": 25,
+              "metis": 10,
+              "nonAboriginal": 1495
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with university certificate or diploma below bachelor level",
+              "totalPopulation": 180,
+              "aboriginal": 0,
+              "metis": 0,
+              "nonAboriginal": 185
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with bachelor's degree",
+              "totalPopulation": 460,
+              "aboriginal": 15,
+              "metis": 0,
+              "nonAboriginal": 445
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with university certificate, diploma or degree above bachelor level",
+              "totalPopulation": 170,
+              "aboriginal": 0,
+              "metis": 0,
+              "nonAboriginal": 170
+            }
+          ]
+        }
+      }
+    },
+    "Ottawa - Gatineau": {
+      "year": 2016,
+      "id": "ottawa-gatineau",
+      "categories": {
+        "highestEducation": {
+          "tableData": [
+            {
+              "educationLevel": "Total Population",
+              "totalPopulation": 1073820,
+              "aboriginal": 30710,
+              "metis": 14085,
+              "nonAboriginal": 1043110
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, no postsecondary certificate, diploma or degree",
+              "totalPopulation": 152445,
+              "aboriginal": 6145,
+              "metis": 2460,
+              "nonAboriginal": 146305
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, with apprenticeship or trades certificate or diploma",
+              "totalPopulation": 12630,
+              "aboriginal": 610,
+              "metis": 315,
+              "nonAboriginal": 12015
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, with college, CEGEP or other non-university certificate or diploma",
+              "totalPopulation": 5155,
+              "aboriginal": 315,
+              "metis": 80,
+              "nonAboriginal": 4835
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, no postsecondary certificate, diploma or degree",
+              "totalPopulation": 256775,
+              "aboriginal": 8010,
+              "metis": 3670,
+              "nonAboriginal": 248760
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with apprenticeship or trades certificate or diploma",
+              "totalPopulation": 57255,
+              "aboriginal": 2290,
+              "metis": 1165,
+              "nonAboriginal": 54970
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with college, CEGEP or other non-university certificate or diploma",
+              "totalPopulation": 207700,
+              "aboriginal": 7075,
+              "metis": 3305,
+              "nonAboriginal": 200620
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with university certificate or diploma below bachelor level",
+              "totalPopulation": 23635,
+              "aboriginal": 615,
+              "metis": 310,
+              "nonAboriginal": 23020
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with bachelor's degree",
+              "totalPopulation": 222025,
+              "aboriginal": 3815,
+              "metis": 1910,
+              "nonAboriginal": 218210
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with university certificate, diploma or degree above bachelor level",
+              "totalPopulation": 136195,
+              "aboriginal": 1820,
+              "metis": 870,
+              "nonAboriginal": 134370
+            }
+          ]
+        }
+      }
+    },
+    "Ottawa - Gatineau (Quebec part)": {
+      "year": 2016,
+      "id": "ottawa-gatineau-qc",
+      "categories": {
+        "highestEducation": {
+          "tableData": [
+            {
+              "educationLevel": "Total Population",
+              "totalPopulation": 266200,
+              "aboriginal": 10650,
+              "metis": 5535,
+              "nonAboriginal": 255545
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, no postsecondary certificate, diploma or degree",
+              "totalPopulation": 51855,
+              "aboriginal": 2645,
+              "metis": 1200,
+              "nonAboriginal": 49210
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, with apprenticeship or trades certificate or diploma",
+              "totalPopulation": 6610,
+              "aboriginal": 375,
+              "metis": 205,
+              "nonAboriginal": 6230
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, with college, CEGEP or other non-university certificate or diploma",
+              "totalPopulation": 945,
+              "aboriginal": 85,
+              "metis": 20,
+              "nonAboriginal": 860
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, no postsecondary certificate, diploma or degree",
+              "totalPopulation": 59865,
+              "aboriginal": 2430,
+              "metis": 1295,
+              "nonAboriginal": 57440
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with apprenticeship or trades certificate or diploma",
+              "totalPopulation": 28200,
+              "aboriginal": 1335,
+              "metis": 715,
+              "nonAboriginal": 26865
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with college, CEGEP or other non-university certificate or diploma",
+              "totalPopulation": 47515,
+              "aboriginal": 2000,
+              "metis": 1085,
+              "nonAboriginal": 45515
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with university certificate or diploma below bachelor level",
+              "totalPopulation": 7755,
+              "aboriginal": 280,
+              "metis": 170,
+              "nonAboriginal": 7470
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with bachelor's degree",
+              "totalPopulation": 40165,
+              "aboriginal": 1020,
+              "metis": 590,
+              "nonAboriginal": 39145
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with university certificate, diploma or degree above bachelor level",
+              "totalPopulation": 23285,
+              "aboriginal": 475,
+              "metis": 255,
+              "nonAboriginal": 22810
+            }
+          ]
+        }
+      }
+    },
+    "Ottawa - Gatineau (Ontario part)": {
+      "year": 2016,
+      "id": "ottawa-gatineau-on",
+      "categories": {
+        "highestEducation": {
+          "tableData": [
+            {
+              "educationLevel": "Total Population",
+              "totalPopulation": 807620,
+              "aboriginal": 20060,
+              "metis": 8555,
+              "nonAboriginal": 787560
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, no postsecondary certificate, diploma or degree",
+              "totalPopulation": 100595,
+              "aboriginal": 3495,
+              "metis": 1260,
+              "nonAboriginal": 97100
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, with apprenticeship or trades certificate or diploma",
+              "totalPopulation": 6025,
+              "aboriginal": 235,
+              "metis": 105,
+              "nonAboriginal": 5785
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, with college, CEGEP or other non-university certificate or diploma",
+              "totalPopulation": 4210,
+              "aboriginal": 235,
+              "metis": 60,
+              "nonAboriginal": 3975
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, no postsecondary certificate, diploma or degree",
+              "totalPopulation": 196910,
+              "aboriginal": 5585,
+              "metis": 2375,
+              "nonAboriginal": 191320
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with apprenticeship or trades certificate or diploma",
+              "totalPopulation": 29055,
+              "aboriginal": 955,
+              "metis": 450,
+              "nonAboriginal": 28100
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with college, CEGEP or other non-university certificate or diploma",
+              "totalPopulation": 160180,
+              "aboriginal": 5075,
+              "metis": 2220,
+              "nonAboriginal": 155105
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with university certificate or diploma below bachelor level",
+              "totalPopulation": 15880,
+              "aboriginal": 335,
+              "metis": 140,
+              "nonAboriginal": 15550
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with bachelor's degree",
+              "totalPopulation": 181860,
+              "aboriginal": 2795,
+              "metis": 1315,
+              "nonAboriginal": 179065
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with university certificate, diploma or degree above bachelor level",
+              "totalPopulation": 112910,
+              "aboriginal": 1350,
+              "metis": 620,
+              "nonAboriginal": 111555
+            }
+          ]
+        }
+      }
+    },
+    "Arnprior": {
+      "year": 2016,
+      "id": "arnprior-on",
+      "categories": {
+        "highestEducation": {
+          "tableData": [
+            {
+              "educationLevel": "Total Population",
+              "totalPopulation": 13275,
+              "aboriginal": 650,
+              "metis": 295,
+              "nonAboriginal": 12630
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, no postsecondary certificate, diploma or degree",
+              "totalPopulation": 2380,
+              "aboriginal": 120,
+              "metis": 40,
+              "nonAboriginal": 2260
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, with apprenticeship or trades certificate or diploma",
+              "totalPopulation": 255,
+              "aboriginal": 15,
+              "metis": 0,
+              "nonAboriginal": 235
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, with college, CEGEP or other non-university certificate or diploma",
+              "totalPopulation": 130,
+              "aboriginal": 15,
+              "metis": 10,
+              "nonAboriginal": 115
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, no postsecondary certificate, diploma or degree",
+              "totalPopulation": 4065,
+              "aboriginal": 195,
+              "metis": 85,
+              "nonAboriginal": 3870
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with apprenticeship or trades certificate or diploma",
+              "totalPopulation": 985,
+              "aboriginal": 55,
+              "metis": 30,
+              "nonAboriginal": 930
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with college, CEGEP or other non-university certificate or diploma",
+              "totalPopulation": 3390,
+              "aboriginal": 190,
+              "metis": 95,
+              "nonAboriginal": 3205
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with university certificate or diploma below bachelor level",
+              "totalPopulation": 235,
+              "aboriginal": 15,
+              "metis": 0,
+              "nonAboriginal": 225
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with bachelor's degree",
+              "totalPopulation": 1380,
+              "aboriginal": 30,
+              "metis": 15,
+              "nonAboriginal": 1350
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with university certificate, diploma or degree above bachelor level",
+              "totalPopulation": 450,
+              "aboriginal": 15,
+              "metis": 10,
+              "nonAboriginal": 435
+            }
+          ]
+        }
+      }
+    },
+    "Carleton Place": {
+      "year": 2016,
+      "id": "carleton-place-on",
+      "categories": {
+        "highestEducation": {
+          "tableData": [
+            {
+              "educationLevel": "Total Population",
+              "totalPopulation": 25575,
+              "aboriginal": 985,
+              "metis": 425,
+              "nonAboriginal": 24590
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, no postsecondary certificate, diploma or degree",
+              "totalPopulation": 3660,
+              "aboriginal": 235,
+              "metis": 100,
+              "nonAboriginal": 3425
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, with apprenticeship or trades certificate or diploma",
+              "totalPopulation": 350,
+              "aboriginal": 20,
+              "metis": 10,
+              "nonAboriginal": 330
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, with college, CEGEP or other non-university certificate or diploma",
+              "totalPopulation": 285,
+              "aboriginal": 20,
+              "metis": 15,
+              "nonAboriginal": 270
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, no postsecondary certificate, diploma or degree",
+              "totalPopulation": 7130,
+              "aboriginal": 245,
+              "metis": 100,
+              "nonAboriginal": 6880
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with apprenticeship or trades certificate or diploma",
+              "totalPopulation": 1605,
+              "aboriginal": 65,
+              "metis": 25,
+              "nonAboriginal": 1540
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with college, CEGEP or other non-university certificate or diploma",
+              "totalPopulation": 7385,
+              "aboriginal": 265,
+              "metis": 120,
+              "nonAboriginal": 7115
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with university certificate or diploma below bachelor level",
+              "totalPopulation": 480,
+              "aboriginal": 30,
+              "metis": 15,
+              "nonAboriginal": 450
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with bachelor's degree",
+              "totalPopulation": 3365,
+              "aboriginal": 70,
+              "metis": 35,
+              "nonAboriginal": 3295
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with university certificate, diploma or degree above bachelor level",
+              "totalPopulation": 1315,
+              "aboriginal": 40,
+              "metis": 15,
+              "nonAboriginal": 1280
+            }
+          ]
+        }
+      }
     }
   }
 }

@@ -10,10 +10,10 @@ import {
   faUsers,
   faHouse,
 } from "@fortawesome/free-solid-svg-icons";
-import HousingSection from "../components/view/ProfileSections/HousingSection";
-import EducationSection from "../components/view/ProfileSections/EducationSection";
-import LaborSection from "../components/view/ProfileSections/LaborSection";
-import IncomeSection from "../components/view/ProfileSections/IncomeSection";
+import HousingSection from "@components/view/ProfileSections/HousingSection";
+import EducationSection from "@components/view/ProfileSections/EducationSection";
+import LaborSection from "@components/view/ProfileSections/LaborSection";
+import IncomeSection from "@components/view/ProfileSections/IncomeSection";
 
 export default function Profile() {
   const navigate = useNavigate();
