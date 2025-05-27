@@ -11,6 +11,8 @@ import {
   faHouse,
 } from "@fortawesome/free-solid-svg-icons";
 import HousingSection from "../components/view/ProfileSections/HousingSection";
+import EducationSection from "../components/view/ProfileSections/EducationSection";
+import LaborSection from "../components/view/ProfileSections/LaborSection";
 
 export default function Profile() {
   const categories = [
@@ -30,7 +32,7 @@ export default function Profile() {
   const content = (
     <div className="px-4 py-6">
       <h2 className="text-lg sm:text-2xl font-bold mb-2 text-center">
-        {categories.find((cat) => cat.id === currentCategory)?.name}
+        {categories.find((cat) => cat.id === currentCategory)?.name} - 2016
       </h2>
       <div className="mt-4 sm:mt-6">
         {/* Display different content based on the selected category */}
@@ -39,17 +41,9 @@ export default function Profile() {
 
         {currentCategory === "housing" && <HousingSection />}
 
-        {currentCategory === "education" && (
-          <div>
-            <Card>Education content goes here.</Card>
-          </div>
-        )}
+        {currentCategory === "education" && <EducationSection />}
 
-        {currentCategory === "labourForce" && (
-          <div>
-            <Card>Labour Force content goes here.</Card>
-          </div>
-        )}
+        {currentCategory === "labourForce" && <LaborSection />}
 
         {currentCategory === "income" && (
           <div>

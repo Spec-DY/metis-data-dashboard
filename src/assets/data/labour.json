@@ -1,0 +1,96 @@
+{
+  "ON": {
+    "Cornwall": {
+      "year": 2016,
+      "id": "cornwall-on",
+      "categories": {
+        "summary": {
+          "tableData": [
+            {
+              "identityGroup": "Aboriginal identity",
+              "totalPopulation": 1700,
+              "employed": 765,
+              "unemployed": 180,
+              "notInLabourForce": 755,
+              "participationRate": "55.6%",
+              "employmentRate": "45.0%",
+              "unemploymentRate": "19.0%"
+            },
+            {
+              "identityGroup": "Métis",
+              "totalPopulation": 555,
+              "employed": 270,
+              "unemployed": 45,
+              "notInLabourForce": 240,
+              "participationRate": "56.8%",
+              "employmentRate": "48.6%",
+              "unemploymentRate": "14.3%"
+            },
+            {
+              "identityGroup": "Non-Aboriginal identity",
+              "totalPopulation": 47125,
+              "employed": 23890,
+              "unemployed": 2305,
+              "notInLabourForce": 20920,
+              "participationRate": "55.6%",
+              "employmentRate": "50.7%",
+              "unemploymentRate": "8.8%"
+            }
+          ]
+        },
+        "characteristics": {
+          "chartData": [
+            {
+              "identityGroup": "Aboriginal",
+              "data": {
+                "labels": [
+                  "No certificate, diploma or degree",
+                  "Secondary (high) school diploma or equivalency certificate",
+                  "Apprenticeship or trades certificate or diploma",
+                  "College, CEGEP or other non-university certificate or diploma",
+                  "University certificate or diploma below bachelor level",
+                  "University certificate, diploma or degree at bachelor level or above"
+                ],
+                "employmentRate": [15.0, 45.0, 55.0, 70.0, 35.0, 70.0],
+                "unemploymentRate": [20.0, 15.0, 8.0, 5.0, 50.0, 5.0],
+                "participationRate": [29.9, 58.4, 60.7, 78.2, 50.0, 76.5]
+              }
+            },
+            {
+              "identityGroup": "Métis",
+              "data": {
+                "labels": [
+                  "No certificate, diploma or degree",
+                  "Secondary (high) school diploma or equivalency certificate",
+                  "Apprenticeship or trades certificate or diploma",
+                  "College, CEGEP or other non-university certificate or diploma",
+                  "University certificate or diploma below bachelor level",
+                  "University certificate, diploma or degree at bachelor level or above"
+                ],
+                "employmentRate": [20.0, 50.0, 60.0, 75.0, 0.0, 75.0],
+                "unemploymentRate": [15.0, 10.0, 5.0, 3.0, 0.0, 5.0],
+                "participationRate": [32.1, 55.9, 63.6, 77.4, 0.0, 80.0]
+              }
+            },
+            {
+              "identityGroup": "Non-Aboriginal",
+              "data": {
+                "labels": [
+                  "No certificate, diploma or degree",
+                  "Secondary (high) school diploma or equivalency certificate",
+                  "Apprenticeship or trades certificate or diploma",
+                  "College, CEGEP or other non-university certificate or diploma",
+                  "University certificate or diploma below bachelor level",
+                  "University certificate, diploma or degree at bachelor level or above"
+                ],
+                "employmentRate": [25.0, 50.0, 55.0, 65.0, 42.0, 60.0],
+                "unemploymentRate": [15.0, 8.0, 5.0, 3.0, 5.0, 3.0],
+                "participationRate": [31.3, 57.5, 63.1, 70.8, 48.2, 66.2]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

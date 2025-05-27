@@ -1,0 +1,84 @@
+{
+  "ON": {
+    "Cornwall": {
+      "year": 2016,
+      "id": "cornwall-on",
+      "categories": {
+        "highestEducation": {
+          "tableData": [
+            {
+              "educationLevel": "Total Population",
+              "totalPopulation": 48820,
+              "aboriginal": 1700,
+              "metis": 560,
+              "nonAboriginal": 47120
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, no postsecondary certificate, diploma or degree",
+              "totalPopulation": 11770,
+              "aboriginal": 490,
+              "metis": 145,
+              "nonAboriginal": 11285
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, with apprenticeship or trades certificate or diploma",
+              "totalPopulation": 870,
+              "aboriginal": 35,
+              "metis": 10,
+              "nonAboriginal": 835
+            },
+            {
+              "educationLevel": "No high school diploma or equivalency certificate, with college, CEGEP or other non-university certificate or diploma",
+              "totalPopulation": 345,
+              "aboriginal": 0,
+              "metis": 0,
+              "nonAboriginal": 345
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, no postsecondary certificate, diploma or degree",
+              "totalPopulation": 15990,
+              "aboriginal": 565,
+              "metis": 165,
+              "nonAboriginal": 15425
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with apprenticeship or trades certificate or diploma",
+              "totalPopulation": 3075,
+              "aboriginal": 100,
+              "metis": 50,
+              "nonAboriginal": 2975
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with college, CEGEP or other non-university certificate or diploma",
+              "totalPopulation": 11295,
+              "aboriginal": 385,
+              "metis": 155,
+              "nonAboriginal": 10910
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with university certificate or diploma below bachelor level",
+              "totalPopulation": 725,
+              "aboriginal": 40,
+              "metis": 0,
+              "nonAboriginal": 685
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with bachelor's degree",
+              "totalPopulation": 3395,
+              "aboriginal": 80,
+              "metis": 15,
+              "nonAboriginal": 3320
+            },
+            {
+              "educationLevel": "With high school diploma or equivalency certificate, with university certificate, diploma or degree above bachelor level",
+              "totalPopulation": 1350,
+              "aboriginal": 10,
+              "metis": 10,
+              "nonAboriginal": 1340
+            }
+          ]
+        }
+      }
+    }
+  }
+}
