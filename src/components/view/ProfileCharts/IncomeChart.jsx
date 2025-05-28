@@ -228,7 +228,7 @@ export const MetisIncomeByAgeChart = ({ data, title }) => {
 
   return (
     <div style={{ height: "400px", width: "100%" }}>
-      <Chart options={options} data={chartData} />
+      <Chart type="line" options={options} data={chartData} />
     </div>
   );
 };

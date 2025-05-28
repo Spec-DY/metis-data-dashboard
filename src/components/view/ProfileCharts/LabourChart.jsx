@@ -23,7 +23,7 @@ ChartJS.register(
   Legend
 );
 
-const LabourChart = ({ identityGroup, data, title }) => {
+const LabourChart = ({ data, title }) => {
   const options = {
     responsive: true,
     maintainAspectRatio: false,
@@ -129,7 +129,7 @@ const LabourChart = ({ identityGroup, data, title }) => {
 
   return (
     <div style={{ height: "400px", width: "100%", marginBottom: "30px" }}>
-      <Chart options={options} data={chartData} />
+      <Chart type="line" options={options} data={chartData} />
     </div>
   );
 };
