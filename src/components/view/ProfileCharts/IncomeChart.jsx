@@ -9,6 +9,9 @@ import {
   Title,
   Tooltip,
   Legend,
+  BarController,
+  LineController,
+  registerables,
 } from "chart.js";
 import { Chart } from "react-chartjs-2";
 
@@ -20,8 +23,13 @@ ChartJS.register(
   PointElement,
   Title,
   Tooltip,
-  Legend
+  Legend,
+  BarController,
+  LineController
 );
+
+// Register all components globally
+ChartJS.register(...registerables);
 
 // Overall Income Summary Chart - Horizontal Bar Chart
 export const OverallIncomeChart = ({ data, title }) => {
@@ -228,7 +236,7 @@ export const MetisIncomeByAgeChart = ({ data, title }) => {
 
   return (
     <div style={{ height: "400px", width: "100%" }}>
-      <Chart type="line" options={options} data={chartData} />
+      <Chart type="bar" options={options} data={chartData} />
     </div>
   );
 };

@@ -9,6 +9,9 @@ import {
   Title,
   Tooltip,
   Legend,
+  BarController,
+  LineController,
+  registerables,
 } from "chart.js";
 import { Chart } from "react-chartjs-2";
 
@@ -20,8 +23,12 @@ ChartJS.register(
   PointElement,
   Title,
   Tooltip,
-  Legend
+  Legend,
+  BarController,
+  LineController
 );
+
+ChartJS.register(...registerables);
 
 const LabourChart = ({ data, title }) => {
   const options = {
@@ -129,7 +136,7 @@ const LabourChart = ({ data, title }) => {
 
   return (
     <div style={{ height: "400px", width: "100%", marginBottom: "30px" }}>
-      <Chart type="line" options={options} data={chartData} />
+      <Chart type="bar" options={options} data={chartData} />
     </div>
   );
 };
