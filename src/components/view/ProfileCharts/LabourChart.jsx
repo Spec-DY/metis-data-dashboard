@@ -129,7 +129,7 @@ const LabourChart = ({ identityGroup, data, title }) => {
 
   return (
     <div style={{ height: "400px", width: "100%", marginBottom: "30px" }}>
-      <Chart type="bar" options={options} data={chartData} />
+      <Chart options={options} data={chartData} />
     </div>
   );
 };
