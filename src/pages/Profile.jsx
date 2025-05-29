@@ -27,23 +27,24 @@ export default function Profile() {
     { id: "income", name: "Income", icon: faMoneyBill },
   ];
 
-  // initialize currentCategory based on URL parameter or default to first category
   const [currentCategory, setCurrentCategory] = useState(
-    category && categories.find((cat) => cat.id === category)
-      ? category
-      : categories[0].id
+    category || "demographic"
   );
 
-  // update currentCategory when URL parameter changes
   useEffect(() => {
-    if (category && categories.find((cat) => cat.id === category)) {
+    if (!category) {
+      navigate(`/profile/${currentCategory}`);
+    }
+  }, [category]);
+
+  useEffect(() => {
+    if (category) {
       setCurrentCategory(category);
     }
   }, [category]);
 
   const handleCategoryChange = (categoryId) => {
     setCurrentCategory(categoryId);
-    // update the URL
     navigate(`/profile/${categoryId}`);
   };
 
@@ -54,15 +55,10 @@ export default function Profile() {
       </h2>
       <div className="mt-4 sm:mt-6">
         {/* Display different content based on the selected category */}
-
         {currentCategory === "demographic" && <DemographicSection />}
-
         {currentCategory === "housing" && <HousingSection />}
-
         {currentCategory === "education" && <EducationSection />}
-
         {currentCategory === "labourForce" && <LaborSection />}
-
         {currentCategory === "income" && <IncomeSection />}
       </div>
     </div>

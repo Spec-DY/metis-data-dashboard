@@ -8,8 +8,9 @@ export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const tabs = [
+    // directly point to the path with parameters to avoid flickering due to redirection
     { tabname: "Snapshot", path: "/snapshot/Homeland/demographic" },
-    { tabname: "Community Profile", path: "/profile" },
+    { tabname: "Community Profile", path: "/profile/demographic" },
   ];
 
   const toggleMenu = () => {
