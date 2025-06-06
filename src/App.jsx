@@ -26,7 +26,11 @@ function App() {
               path="/snapshot/:province/:category/:subcategory"
               element={<SnapShot />}
             />
-            <Route path="/profile" element={<Profile />} />
+            <Route
+              path="/profile"
+              element={<Navigate to="/profile/demographic" replace />}
+            />
+            <Route path="/profile/:category" element={<Profile />} />
           </Routes>
         </PageLayout>
       </Background>

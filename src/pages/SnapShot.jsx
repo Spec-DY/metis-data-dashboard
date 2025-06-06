@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router";
 import ContentDisplay from "@components/view/ContentDisplay";
-import Dropdown from "@components/common/Dropdown";
+import Dropdown from "@components/common/DropDown";
 import CategoryTabs from "@components/common/CategoryTabs";
 import BacktoTop from "@components/common/BacktoTop";
 import {

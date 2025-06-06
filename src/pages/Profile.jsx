@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState, useEffect } from "react";
+import { useNavigate, useParams } from "react-router";
 import CategoryTabs from "@components/common/CategoryTabs";
-import Card from "@components/common/Card";
 import DropDown from "@components/common/DropDown";
 import DemographicSection from "@components/view/ProfileSections/DemographicSection";
 import {
@@ -10,9 +10,15 @@ import {
   faUsers,
   faHouse,
 } from "@fortawesome/free-solid-svg-icons";
-import HousingSection from "../components/view/ProfileSections/HousingSection";
+import HousingSection from "@components/view/ProfileSections/HousingSection";
+import EducationSection from "@components/view/ProfileSections/EducationSection";
+import LaborSection from "@components/view/ProfileSections/LaborSection";
+import IncomeSection from "@components/view/ProfileSections/IncomeSection";
 
 export default function Profile() {
+  const navigate = useNavigate();
+  const { category } = useParams();
+
   const categories = [
     { id: "demographic", name: "Demographic", icon: faUsers },
     { id: "housing", name: "Housing", icon: faHouse },
@@ -21,41 +27,39 @@ export default function Profile() {
     { id: "income", name: "Income", icon: faMoneyBill },
   ];
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0].id);
+  const [currentCategory, setCurrentCategory] = useState(
+    category || "demographic"
+  );
+
+  useEffect(() => {
+    if (!category) {
+      navigate(`/profile/${currentCategory}`);
+    }
+  }, [category]);
+
+  useEffect(() => {
+    if (category) {
+      setCurrentCategory(category);
+    }
+  }, [category]);
 
   const handleCategoryChange = (categoryId) => {
     setCurrentCategory(categoryId);
+    navigate(`/profile/${categoryId}`);
   };
 
   const content = (
     <div className="px-4 py-6">
       <h2 className="text-lg sm:text-2xl font-bold mb-2 text-center">
-        {categories.find((cat) => cat.id === currentCategory)?.name}
+        {categories.find((cat) => cat.id === currentCategory)?.name} - 2016
       </h2>
       <div className="mt-4 sm:mt-6">
         {/* Display different content based on the selected category */}
-
         {currentCategory === "demographic" && <DemographicSection />}
-
         {currentCategory === "housing" && <HousingSection />}
-
-        {currentCategory === "education" && (
-          <div>
-            <Card>Education content goes here.</Card>
-          </div>
-        )}
-
-        {currentCategory === "labourForce" && (
-          <div>
-            <Card>Labour Force content goes here.</Card>
-          </div>
-        )}
-
-        {currentCategory === "income" && (
-          <div>
-            <Card>Income content goes here.</Card>
-          </div>
-        )}
+        {currentCategory === "education" && <EducationSection />}
+        {currentCategory === "labourForce" && <LaborSection />}
+        {currentCategory === "income" && <IncomeSection />}
       </div>
     </div>
   );

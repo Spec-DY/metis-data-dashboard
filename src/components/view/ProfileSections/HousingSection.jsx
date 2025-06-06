@@ -168,7 +168,39 @@ const HousingSection = () => {
                 <div className="w-full mx-auto p-8">
                   <HorizontalBarChart
                     labels={currentData.chartData.labels}
-                    datasets={currentData.chartData.datasets}
+                    datasets={[
+                      {
+                        label: "Regular Maintenance Needed",
+                        data: currentData.tableData.map(
+                          (item) =>
+                            (
+                              (item.regularMaintenance / item.total) *
+                              100
+                            ).toFixed(2) * 1
+                        ),
+                        backgroundColor: "#90EE90", // Light green
+                      },
+                      {
+                        label: "Minor Repair Needed",
+                        data: currentData.tableData.map(
+                          (item) =>
+                            ((item.minorRepairs / item.total) * 100).toFixed(
+                              2
+                            ) * 1
+                        ),
+                        backgroundColor: "#FFD700", // Yellow
+                      },
+                      {
+                        label: "Major Repair Needed",
+                        data: currentData.tableData.map(
+                          (item) =>
+                            ((item.majorRepairs / item.total) * 100).toFixed(
+                              2
+                            ) * 1
+                        ),
+                        backgroundColor: "#FF6384", // Pink/Red
+                      },
+                    ]}
                     title={`${getRegionDisplayName()} - Dwelling Condition`}
                     maxPercentage={100}
                   />
@@ -199,10 +231,29 @@ const HousingSection = () => {
                 <div className="w-full mx-auto p-8">
                   <BarChart
                     labels={currentData.chartData.labels}
-                    datasets={currentData.chartData.datasets.map((dataset) => ({
-                      ...dataset,
-                      data: dataset.data.map((value) => Math.round(value)),
-                    }))}
+                    datasets={[
+                      {
+                        label: "Suitable",
+                        data: currentData.tableData.map(
+                          (item) =>
+                            ((item.suitable / item.totalHousing) * 100).toFixed(
+                              2
+                            ) * 1
+                        ),
+                        backgroundColor: "#90EE90", // Light green
+                      },
+                      {
+                        label: "Not suitable",
+                        data: currentData.tableData.map(
+                          (item) =>
+                            (
+                              (item.notSuitable / item.totalHousing) *
+                              100
+                            ).toFixed(2) * 1
+                        ),
+                        backgroundColor: "#FF6384", // Pink/Red
+                      },
+                    ]}
                     title={`${getRegionDisplayName()} - Housing Suitability`}
                     maxPercentage={100}
                   />
